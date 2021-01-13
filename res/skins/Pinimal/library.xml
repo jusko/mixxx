@@ -1,0 +1,17 @@
+<!DOCTYPE template>
+<Template>
+  <WidgetGroup>
+    <Layout>vertical</Layout>
+    <Size><Variable name="size"/></Size>
+    <Children>
+      <WidgetGroup>
+        <Layout>vertical</Layout>
+        <Children>
+          <TouchScreenLibrary>
+            <SizePolicy>me, me</SizePolicy>
+          </TouchScreenLibrary>
+        </Children>
+      </WidgetGroup>
+    </Children>
+  </WidgetGroup>
+</Template>

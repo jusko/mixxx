@@ -1,0 +1,46 @@
+<!DOCTYPE template>
+<Template>
+  <WidgetGroup>
+    <ObjectName>TrackInfo</ObjectName>
+    <Layout>vertical</Layout>
+    <Size>me,60f</Size>
+    <Children>
+      <TrackProperty>
+        <TooltipId>track_title</TooltipId>
+        <Property>title</Property>
+        <Group><Variable name="group"/></Group>
+      </TrackProperty>
+      <TrackProperty>
+        <TooltipId>track_artist</TooltipId>
+        <Property>artist</Property>
+        <Group><Variable name="group"/></Group>
+      </TrackProperty>
+      <WidgetGroup>
+        <Layout>horizontal</Layout>
+        <Children>
+          <NumberBpm>
+            <ObjectName>TrackInfoItem</ObjectName>
+            <Group><Variable name="group"/></Group>
+            <Connection>
+              <ConfigKey><Variable name="group"/>,visual_bpm</ConfigKey>
+            </Connection>
+          </NumberBpm>
+          <Key>
+            <ObjectName>TrackInfoItem</ObjectName>
+            <Group><Variable name="group"/></Group>
+            <DisplayCents>false</DisplayCents>
+            <Connection>
+              <ConfigKey><Variable name="group"/>,visual_key</ConfigKey>
+            </Connection>
+          </Key>
+          <TrackProperty>
+            <ObjectName>TrackInfoItem</ObjectName>
+            <TooltipId>duration</TooltipId>
+            <Property>durationFormatted</Property>
+            <Group><Variable name="group"/></Group>
+          </TrackProperty>
+        </Children>
+      </WidgetGroup>
+    </Children>
+  </WidgetGroup>
+</Template>

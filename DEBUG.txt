@@ -1,0 +1,1361 @@
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+Debug [Main]: SoundSourceProxy - Registering SoundSource providers
+Debug [Main]: SoundSourceProxy - Registering platform and fallback SoundSource providers
+Debug [Main]: SoundSourceProviderRegistry - Registering provider "MAD: MPEG Audio Decoder"
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "mp3" for provider "MAD: MPEG Audio Decoder" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering provider "MODPlug"
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "mod" for provider "MODPlug" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "med" for provider "MODPlug" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "okt" for provider "MODPlug" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "s3m" for provider "MODPlug" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "stm" for provider "MODPlug" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "xm" for provider "MODPlug" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "it" for provider "MODPlug" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering provider "Nero FAAD2"
+Info [Main]: faad2::LibLoader - Successfully loaded FAAD2 library "libfaad.so" version 2.10.0
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "m4a" for provider "Nero FAAD2" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "mp4" for provider "Nero FAAD2" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering provider "libsndfile"
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "aif" for provider "libsndfile" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "aiff" for provider "libsndfile" with priority 3 (default)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "caf" for provider "libsndfile" with priority 2 (lower)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "flac" for provider "libsndfile" with priority 2 (lower)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "ogg" for provider "libsndfile" with priority 2 (lower)
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "wav" for provider "libsndfile" with priority 3 (default)
+Debug [Main]: SoundSourceProxy - Registering reference SoundSource providers
+Debug [Main]: SoundSourceProviderRegistry - Registering provider "Xiph.org libFLAC"
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "flac" for provider "Xiph.org libFLAC" with priority 4 (higher)
+Debug [Main]: SoundSourceProviderRegistry - Registering provider "Xiph.org OggVorbis"
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "ogg" for provider "Xiph.org OggVorbis" with priority 4 (higher)
+Debug [Main]: SoundSourceProviderRegistry - Registering provider "Xiph.org libopusfile"
+Debug [Main]: SoundSourceProviderRegistry - Registering file extension "opus" for provider "Xiph.org libopusfile" with priority 4 (higher)
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "aif"
+Info [Main]: SoundSourceProxy - 3 (default) : "libsndfile"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "aiff"
+Info [Main]: SoundSourceProxy - 3 (default) : "libsndfile"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "caf"
+Info [Main]: SoundSourceProxy - 2 (lower) : "libsndfile"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "flac"
+Info [Main]: SoundSourceProxy - 4 (higher) : "Xiph.org libFLAC"
+Info [Main]: SoundSourceProxy - 2 (lower) : "libsndfile"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "it"
+Info [Main]: SoundSourceProxy - 3 (default) : "MODPlug"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "m4a"
+Info [Main]: SoundSourceProxy - 3 (default) : "Nero FAAD2"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "med"
+Info [Main]: SoundSourceProxy - 3 (default) : "MODPlug"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "mod"
+Info [Main]: SoundSourceProxy - 3 (default) : "MODPlug"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "mp3"
+Info [Main]: SoundSourceProxy - 3 (default) : "MAD: MPEG Audio Decoder"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "mp4"
+Info [Main]: SoundSourceProxy - 3 (default) : "Nero FAAD2"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "ogg"
+Info [Main]: SoundSourceProxy - 4 (higher) : "Xiph.org OggVorbis"
+Info [Main]: SoundSourceProxy - 2 (lower) : "libsndfile"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "okt"
+Info [Main]: SoundSourceProxy - 3 (default) : "MODPlug"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "opus"
+Info [Main]: SoundSourceProxy - 4 (higher) : "Xiph.org libopusfile"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "s3m"
+Info [Main]: SoundSourceProxy - 3 (default) : "MODPlug"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "stm"
+Info [Main]: SoundSourceProxy - 3 (default) : "MODPlug"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "wav"
+Info [Main]: SoundSourceProxy - 3 (default) : "libsndfile"
+Info [Main]: SoundSourceProxy - SoundSource providers for file extension "xm"
+Info [Main]: SoundSourceProxy - 3 (default) : "MODPlug"
+Debug [Main]: "Mixxx" "2.3.0-beta" "(git pi_nimal r7947+; built on: Jan  9 2021 @ 06:38:56)" is starting...
+Debug [Main]: Compile time library versions:
+Debug [Main]: Qt: 5.15.2
+Debug [Main]: libshout: 2.4.4
+Debug [Main]: PortAudio: 1246720 PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+Debug [Main]: RubberBand: 1.9.0
+Debug [Main]: SoundTouch: 2.2
+Debug [Main]: TagLib: 1.11.1
+Debug [Main]: ChromaPrint: 1.5.0
+Debug [Main]: Vorbis: Xiph.Org libVorbis 1.3.7
+Debug [Main]: libsndfile: libsndfile-1.0.28
+Debug [Main]: FLAC: 1.3.3
+Debug [Main]: libmp3lame: 3.100
+Debug [Main]: QStandardPaths::writableLocation(HomeLocation): "/home/justin"
+Debug [Main]: QStandardPaths::writableLocation(DataLocation): "/home/justin/.local/share/Mixxx"
+Debug [Main]: QCoreApplication::applicationDirPath() "/usr/local/bin"
+Debug [StatsManager]: StatsManager thread starting up.
+Debug [Main]: Loading resources from  "/usr/local/share/mixxx/"
+Warning [Main]: Configuration file is at version "2.2.0" instead of the current 2.3.0-beta
+Info [Main]: BroadcastSettings - Found 1 profile(s)
+Debug [Main]: Loading resources from  "/usr/local/share/mixxx/"
+Debug [Main]: Found and will use default keyboard preset "/usr/local/share/mixxx/keyboard/en_US.kbd.cfg"
+Debug [Main]: Loading resources from  "/usr/local/share/mixxx/"
+Debug [Main]: Loading translations for locale "en_GB" from translations folder "/usr/local/share/mixxx/translations/" : success
+Debug [Main]: Loading resources from  "/usr/local/share/mixxx/"
+Info [Main]: DbConnection - Available drivers for database connections: ("QIBASE", "QSQLITE", "QMARIADB", "QMYSQL", "QMYSQL3", "QODBC", "QODBC3", "QPSQL", "QPSQL7", "QTDS", "QTDS7")
+Debug [Main]: DbConnection - Opening database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=false)
+Info [Main]: DbConnectionPool - Cloned thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [Main]: MixxxMainWindow - Connecting to database
+Debug [Main]: DbConnectionPooled - Found thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [Main]: MixxxMainWindow - Initializing or upgrading database schema
+Info [Main]: SchemaManager - Database schema is up-to-date at version 32
+Debug [Main]: JACK client name set
+ALSA lib pcm_dsnoop.c:638:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.USB-Audio.pcm.hdmi.0:CARD=0,AES0=4,AES1=130,AES2=0,AES3=2'
+ALSA lib conf.c:4745:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5233:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM hdmi
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.USB-Audio.pcm.hdmi.0:CARD=0,AES0=4,AES1=130,AES2=0,AES3=2'
+ALSA lib conf.c:4745:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5233:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM hdmi
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.USB-Audio.pcm.modem.0:CARD=0'
+ALSA lib conf.c:4745:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5233:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline:CARD=0,DEV=0
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.USB-Audio.pcm.modem.0:CARD=0'
+ALSA lib conf.c:4745:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5233:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline:CARD=0,DEV=0
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.USB-Audio.pcm.modem.0:CARD=0'
+ALSA lib conf.c:4745:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5233:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM phoneline
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.USB-Audio.pcm.modem.0:CARD=0'
+ALSA lib conf.c:4745:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5233:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM phoneline
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+ALSA lib pcm_oss.c:377:(_snd_pcm_oss_open) Unknown field port
+ALSA lib pcm_oss.c:377:(_snd_pcm_oss_open) Unknown field port
+ALSA lib pcm_usb_stream.c:486:(_snd_pcm_usb_stream_open) Invalid type for card
+ALSA lib pcm_usb_stream.c:486:(_snd_pcm_usb_stream_open) Invalid type for card
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+Debug [Main]: EngineNetworkStream - addWorker: worker added
+Debug [Main]: EngineNetworkStream - worker slots used: "1 out of 16"
+Debug [Main]: BroadcastManager - addConnection: created connection for profile "Connection 1"
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Info [Main]: GlobalTrackCache - Creating instance
+Debug [Main]: DbConnectionPooled - Found thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [Main]: TrackCollection - Connecting database
+Info [Main]: TrackCollectionManager - Starting library scanner thread
+Debug [LibraryScanner 1]: LibraryScanner - Entering thread
+Debug [LibraryScanner 1]: DbConnection - Opening database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=false)
+Info [LibraryScanner 1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [LibraryScanner 1]: DbConnectionPooled - Found thread-local database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [Main]: TrackCollection - Connecting track source
+Debug [LibraryScanner 1]: LibraryScanner - Event loop starting
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 20 "Channels"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 18 "Samplerate"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 40 "#"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 42 "Timestamp"
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 20 "Channels"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 18 "Samplerate"
+Debug [Main]: PlaylistTableModel(0x55824728c190) select() took 0 ms 0
+Debug [Main]: CrateFeature::rebuildChildModel() -1
+Debug [Main]: Appending Quick Link:  "Library" --- "/home/justin/Music/Library/"
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: Traktor Library Location=[ "/home/justin/collection.nml" ]
+Debug [Main]: Checking for access to user's library directories:
+Debug [Main]: Checking for access to "/home/justin/Music/Current (Tech)" : true
+Debug [Main]: TrackAnalysisScheduler - Starting 2 worker threads. Priority:  normal
+Debug [AnalyzerThread 0 #2]: AnalyzerThread 0 - Running
+Debug [AnalyzerThread 1 #1]: AnalyzerThread 1 - Running
+Debug [AnalyzerThread 0 #2]: DbConnection - Opening database connection "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=false)
+Debug [AnalyzerThread 1 #1]: DbConnection - Opening database connection "MIXXX-4" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=false)
+Info [AnalyzerThread 1 #1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-4" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 1 #1]: DbConnectionPooled - Found thread-local database connection "MIXXX-4" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 0 #2]: DbConnectionPool - Cloned thread-local database connection "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 0 #2]: DbConnectionPooled - Found thread-local database connection "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 1 #1]: AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 0 #2]: AnalyzerThread - Activated 5 analyzers
+Debug [Main]: Creating ControllerManager
+Debug [Controller]: ControllerManager:slotInitialize
+Debug [Controller]: Extension .midi.xml total 1 presets
+Debug [Controller]: Extension .hid.xml total 0 presets
+Debug [Controller]: Extension .bulk.xml total 0 presets
+Debug [Main]: Set root GL Context widget valid: QGLWidget(0x5582473de9d0) true
+Debug [Main]: Created root GL Context valid: 0x5582473f51e0 true
+Debug [Main]: Root GL Context format:
+Debug [Main]: Double Buffering: true
+Debug [Main]: Swap interval: 0
+Debug [Main]: Depth buffer: true
+Debug [Main]: Direct rendering: true
+Debug [Main]: Has overlay: false
+Debug [Main]: RGBA: true
+Debug [Main]: Sample buffers: false
+Debug [Main]: Samples: -1
+Debug [Main]: Stencil buffers: true
+Debug [Main]: Stereo: false
+Debug [Main]: "openGLVersionFlags 0xff07f" "4.6 (Compatibility Profile) Mesa 20.3.2" "Intel" "Mesa Intel(R) HD Graphics 620 (KBL GT2)"
+Debug [Main]: DBus screensaver  org.freedesktop.ScreenSaver  inhibited
+Debug [Main]: RLimit Cur  98
+Debug [Main]: RLimit Max  98
+Debug [Main]: ControllerManager::getControllerList
+Debug [Main]: DbConnectionPooled - Found thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [Main]: Key plugin ID: "qm-keydetector:2"
+Debug [Main]: LegacySkinParser loading skin: "/usr/local/share/mixxx/skins/Pinimal"
+Warning [Main]: Requested control does not exist: "[Master],maximize_library" Creating it.
+Debug [Main]: PlayerManager - Ignoring request to reduce the number of preview decks to 0
+Warning [Main]: Requested control does not exist: "[Microphone],show_microphone" Creating it.
+Warning [Main]: Requested control does not exist: "[Library],show_coverart" Creating it.
+Warning [Main]: Requested control does not exist: "[PreviewDeck],show_previewdeck" Creating it.
+Warning [Main]: Requested control does not exist: "[VinylControl],show_vinylcontrol" Creating it.
+Debug [Main]: Skin is a >=1.12.0 style skin.
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 20 "Channels"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 32 "Show Cover Art"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 30 "Preview"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 18 "Samplerate"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 40 "#"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 42 "Timestamp"
+Debug [Main]: WTrackTableView::loadTrackModel() HiddenTableModel(0x5582479dcd00)
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 20 "Channels"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 32 "Show Cover Art"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 30 "Preview"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 18 "Samplerate"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 40 "#"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 42 "Timestamp"
+Debug [Main]: WTrackTableView::loadTrackModel() MissingTableModel(0x558248d03300)
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: WTrackTableView::loadTrackModel() PlaylistTableModel(0x55824728c190)
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Controller]: Extension .midi.xml total 121 presets
+Debug [Controller]: Extension .hid.xml total 12 presets
+Debug [Controller]: Extension .bulk.xml total 1 presets
+Debug [Main]: Recordings folder set to "/home/justin/Music/Mixxx/Recordings"
+Debug [Main]: WTrackTableView::loadTrackModel() QSortFilterProxyModel(0x558248de5bd0)
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2021-01-05_13h05m51s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2021-01-05_13h05m51s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2021-01-05_13h05m51s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2021-01-05_13h05m51s.mp3"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 20 "Channels"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 18 "Samplerate"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 40 "#"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 42 "Timestamp"
+Debug [Main]: WTrackTableView::loadTrackModel() AnalysisLibraryTableModel(0x558248e57200)
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-14_17h09m09s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-14_17h09m09s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-14_17h09m09s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-14_17h09m09s.mp3"
+Debug [Main]: BaseTrackCache(0x558247267970) updateIndexWithQuery took 6 ms
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: AnalysisLibraryTableModel(0x558248e57200) select() took 10 ms 16
+Warning [Main]: Requested control does not exist: "[Skin],show_library_panel" Creating it.
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 20 "Channels"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 18 "Samplerate"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 40 "#"
+Debug [Main]: BaseTrackTableModel - Skipping header properties for unsupported column 42 "Timestamp"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-28_21h12m20s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-28_21h12m20s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-28_21h12m20s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-28_21h12m20s.mp3"
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 0
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_10h16m26s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-09_10h16m26s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-09_10h16m26s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_10h16m26s.mp3"
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 1
+Warning [Main]: Requested control does not exist: "[Skin],show_library" Creating it.
+Warning [Main]: Requested control does not exist: "[Skin],show_decks" Creating it.
+Debug [Main]: MixxxLibraryFeature::activate()
+Debug [Main]: WTrackTableView::loadTrackModel() LibraryTableModel(0x5582471c82c0)
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_10h08m38s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-09_10h08m38s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-09_10h08m38s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_10h08m38s.mp3"
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: LibraryTableModel(0x5582471c82c0) select() took 4 ms 1068
+Debug [Main]: trying to restore position
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_11h03m37s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-09_11h03m37s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-09_11h03m37s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_11h03m37s.mp3"
+Warning [Main]: ControlDoublePrivate::getControl returning NULL for ( "[Master]" , "skin_settings" )
+Debug [Controller]: ControllerManager: Setting up devices
+Debug [Controller]: Scanning PortMIDI devices:
+Debug [Controller]:  Found output device # 0 Midi Through Port-0
+Debug [Controller]:  Found output device # 2 DDJ-400 MIDI 1
+Debug [Controller]:  Found input device # 1 Midi Through Port-0
+Debug [Controller]:     Linking to output device # 0 "Midi Through Port-0"
+Debug [Controller]:  Found input device # 3 DDJ-400 MIDI 1
+Debug [Controller]:     Linking to output device # 2 "DDJ-400 MIDI 1"
+Debug [Controller]: Scanning USB Bulk devices:
+Debug [Controller]: Scanning HID devices:
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler1]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler2]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler3]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler4]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler5]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler6]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler7]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler8]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler9]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler10]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler11]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler12]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler13]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler14]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler15]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler16]"
+Debug [LibraryScanner 1]: LibraryScanner - slotStartScan()
+Info [LibraryScanner 1]: LibraryScanner - Cleaning up database...
+Info [LibraryScanner 1]: LibraryScanner - Finished database cleanup: 0 ms
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler17]"
+Debug [Controller]: Found "" "" "r4370" S/N "" "Interface 0"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r257" S/N "" "Interface 4"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r10497" S/N "" "Interface 0"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r10497" S/N "" "Interface 1"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: ControllerManager::getControllerList
+Debug [Controller]: Searching for controller preset "/home/justin/.mixxx/controllers/Pioneer-DDJ-400.midi.xml" in paths: "/home/justin/.mixxx/controllers/,/usr/local/share/mixxx/controllers/"
+Debug [Controller]: Loading controller preset from "/home/justin/.mixxx/controllers/Pioneer-DDJ-400.midi.xml"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler18]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler19]"
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Controller]: Opening controller: "DDJ-400 MIDI 1"
+Debug [Controller]: PortMidiController: Opening DDJ-400 MIDI 1 index 3 for input
+Debug [Controller]: PortMidiController: Opening DDJ-400 MIDI 1 index 2 for output
+Debug [Controller]:   Starting engine
+Debug [Controller]: Controller in script engine is: "DDJ-400 MIDI 1"
+Debug [Controller]: Applying controller preset...
+Debug [Controller]: ControllerEngine: Loading "/usr/local/share/mixxx/controllers/common-controller-scripts.js"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler20]"
+Debug [Controller]: ControllerEngine: Loading "/home/justin/.mixxx/controllers/Pioneer-DDJ-400-script.js"
+Debug [Controller]: ControllerEngine: Executing PioneerDDJ400 . init
+Debug [Controller]: Connected ([Channel1], VuMeter) to connection {3a094fc6-7807-409a-a648-e0e191fcabf9}
+Debug [Controller]: Connected ([Channel2], VuMeter) to connection {8a757ad1-2222-4d15-8db4-fd5b4812db00}
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0xB0 (ch 1, opcode 0xB), ctrl 0x02, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0xB0 (ch 1, opcode 0xB), ctrl 0x02, val 0x00
+Debug [Controller]: Connected ([Sampler1], play) to connection {621d1995-d8ac-4bd5-a48c-89fe9481ed24}
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler21]"
+Debug [Controller]: Connected ([Sampler2], play) to connection {fcab2289-ea5c-48a5-bb3b-77abe9ba5bdc}
+Debug [Controller]: Connected ([Sampler3], play) to connection {90350801-8b93-49a1-9618-d98d8868652a}
+Debug [Controller]: Connected ([Sampler4], play) to connection {639bb06d-e8a2-4380-97fa-bb949acd5ab2}
+Debug [Controller]: Connected ([Sampler5], play) to connection {7c83c1b3-ae60-4043-bc70-9a80943efe1e}
+Debug [Controller]: Connected ([Sampler6], play) to connection {442f239d-104e-4f26-8636-ec263fdf7e99}
+Debug [Controller]: Connected ([Sampler7], play) to connection {35dc6700-6ef7-4ee6-a3c4-81486a8dd008}
+Debug [Controller]: Connected ([Sampler8], play) to connection {ad2e097a-672b-475b-8988-92702e9366a5}
+Debug [Controller]: Connected ([Sampler9], play) to connection {a69a1e83-cf55-4921-a275-974fe9d6e5d4}
+Debug [Controller]: Connected ([Sampler10], play) to connection {7396f7cb-8680-4389-9b18-283ec4ab26ed}
+Debug [Controller]: Connected ([Sampler11], play) to connection {11f573be-ac07-40cf-bca4-02c8ec737ae6}
+Debug [Controller]: Connected ([Sampler12], play) to connection {c6852d0c-41d2-40c2-bc78-dcc6f32fcd57}
+Debug [Controller]: Connected ([Sampler13], play) to connection {737caaa6-1d5e-4460-a7d9-4e2339885f6f}
+Debug [Controller]: Connected ([Sampler14], play) to connection {02a2d2ad-74d4-42ef-941f-b043554dd091}
+Debug [Controller]: Connected ([Sampler15], play) to connection {6eccbf10-e4fd-4875-ae42-1c28e88f24be}
+Debug [Controller]: Connected ([Sampler16], play) to connection {364a19fb-b188-4cd1-a767-c4fbee3873f6}
+Debug [Controller]: Connected ([Channel1], track_loaded) to connection {3b27e5b9-5126-4469-a3ff-0a924bf6bd3d}
+Debug [Controller]: Connected ([Channel2], track_loaded) to connection {2a42ba1c-16fc-4d87-bf34-4bd4a4037c44}
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9F (ch 16, opcode 0x9), ctrl 0x00, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9F (ch 16, opcode 0x9), ctrl 0x01, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x10, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x11, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x4E, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x4C, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x10, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x11, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x4E, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x4C, val 0x7F
+Debug [Controller]: Connected ([Channel1], loop_enabled) to connection {c8572fb7-9b51-46c9-8fac-135c4b3df6d5}
+Debug [Controller]: Connected ([Channel2], loop_enabled) to connection {4b205db5-ee8b-42c7-86b3-4e4ec526811c}
+Debug [Controller]: Connected ([EffectRack1_EffectUnit1_Effect1], enabled) to connection {63feb89e-1678-48c5-8be0-12e988287a2f}
+Debug [Controller]: Connected ([EffectRack1_EffectUnit1_Effect2], enabled) to connection {ea444b2a-6c57-4bc9-ab83-2a46ab23ebb4}
+Debug [Controller]: Connected ([EffectRack1_EffectUnit1_Effect3], enabled) to connection {c98607a2-8184-48d8-ac87-0927a1519d1d}
+Debug [Controller]: Connected ([EffectRack1_EffectUnit1], focused_effect) to connection {9f92ab0a-fdf5-412f-b323-d0ee94eea692}
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: 12 byte sysex: [F0 00 40 05 00 00 02 06 00 03 01 F7]
+Debug [Controller]: Creating output handler for [Channel1],beatloop_0.5_enabled between 0.5 and 1 to MIDI out: 0x98 0x61, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_0.5_enabled between 0.5 and 1 to MIDI out: 0x97 0x61, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],pfl between 0.5 and 1 to MIDI out: 0x91 0x54, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_2_enabled between 0.5 and 1 to MIDI out: 0x9A 0x01, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_2_enabled between 0.5 and 1 to MIDI out: 0x99 0x01, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_2_enabled between 0.5 and 1 to MIDI out: 0x98 0x63, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_2_enabled between 0.5 and 1 to MIDI out: 0x97 0x63, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_8_enabled between 0.5 and 1 to MIDI out: 0x9A 0x07, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_8_enabled between 0.5 and 1 to MIDI out: 0x99 0x07, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler8],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x37, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler8],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x37, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler11],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x32, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler11],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x32, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],sync_enabled between 0.5 and 1 to MIDI out: 0x91 0x58, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler15],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x36, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler15],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x36, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_1_enabled between 0.5 and 1 to MIDI out: 0x98 0x00, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_1_enabled between 0.5 and 1 to MIDI out: 0x97 0x00, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_3_enabled between 0.5 and 1 to MIDI out: 0x98 0x02, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_3_enabled between 0.5 and 1 to MIDI out: 0x97 0x02, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],play_indicator between 0.5 and 1 to MIDI out: 0x90 0x47, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],play_indicator between 0.5 and 1 to MIDI out: 0x90 0x0B, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_2_enabled between 0.5 and 1 to MIDI out: 0x98 0x01, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_2_enabled between 0.5 and 1 to MIDI out: 0x97 0x01, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler3],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x32, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler3],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x32, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_1_enabled between 0.5 and 1 to MIDI out: 0x9A 0x62, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_1_enabled between 0.5 and 1 to MIDI out: 0x99 0x62, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler7],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x36, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler7],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x36, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],cue_indicator between 0.5 and 1 to MIDI out: 0x90 0x47, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],cue_indicator between 0.5 and 1 to MIDI out: 0x90 0x0C, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_0.5_enabled between 0.5 and 1 to MIDI out: 0x9A 0x61, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_0.5_enabled between 0.5 and 1 to MIDI out: 0x99 0x61, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_16_enabled between 0.5 and 1 to MIDI out: 0x9A 0x66, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_16_enabled between 0.5 and 1 to MIDI out: 0x99 0x66, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_2_enabled between 0.5 and 1 to MIDI out: 0x9A 0x63, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_2_enabled between 0.5 and 1 to MIDI out: 0x99 0x63, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_4_enabled between 0.5 and 1 to MIDI out: 0x9A 0x03, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_4_enabled between 0.5 and 1 to MIDI out: 0x99 0x03, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler10],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x31, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler10],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x31, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],pfl between 0.5 and 1 to MIDI out: 0x90 0x54, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_0.25_enabled between 0.5 and 1 to MIDI out: 0x98 0x60, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_0.25_enabled between 0.5 and 1 to MIDI out: 0x97 0x60, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_8_enabled between 0.5 and 1 to MIDI out: 0x98 0x65, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_8_enabled between 0.5 and 1 to MIDI out: 0x97 0x65, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler14],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x35, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler14],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x35, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_4_enabled between 0.5 and 1 to MIDI out: 0x98 0x64, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_4_enabled between 0.5 and 1 to MIDI out: 0x97 0x64, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],play_indicator between 0.5 and 1 to MIDI out: 0x91 0x47, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],play_indicator between 0.5 and 1 to MIDI out: 0x91 0x0B, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler2],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x31, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler2],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x31, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler6],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x35, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler6],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x35, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],cue_indicator between 0.5 and 1 to MIDI out: 0x91 0x47, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],cue_indicator between 0.5 and 1 to MIDI out: 0x91 0x0C, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_5_enabled between 0.5 and 1 to MIDI out: 0x9A 0x04, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_5_enabled between 0.5 and 1 to MIDI out: 0x99 0x04, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x27, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x26, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_6_enabled between 0.5 and 1 to MIDI out: 0x9A 0x05, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_6_enabled between 0.5 and 1 to MIDI out: 0x99 0x05, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_7_enabled between 0.5 and 1 to MIDI out: 0x98 0x06, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_7_enabled between 0.5 and 1 to MIDI out: 0x97 0x06, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_8_enabled between 0.5 and 1 to MIDI out: 0x9A 0x65, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_8_enabled between 0.5 and 1 to MIDI out: 0x99 0x65, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_16_enabled between 0.5 and 1 to MIDI out: 0x98 0x66, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_16_enabled between 0.5 and 1 to MIDI out: 0x97 0x66, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_4_enabled between 0.5 and 1 to MIDI out: 0x98 0x03, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_4_enabled between 0.5 and 1 to MIDI out: 0x97 0x03, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler13],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x34, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler13],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x34, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_0.25_enabled between 0.5 and 1 to MIDI out: 0x9A 0x60, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_0.25_enabled between 0.5 and 1 to MIDI out: 0x99 0x60, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_4_enabled between 0.5 and 1 to MIDI out: 0x9A 0x64, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_4_enabled between 0.5 and 1 to MIDI out: 0x99 0x64, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_32_enabled between 0.5 and 1 to MIDI out: 0x9A 0x67, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],beatloop_32_enabled between 0.5 and 1 to MIDI out: 0x99 0x67, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler1],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x30, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler1],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x30, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler5],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x34, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler5],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x34, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_5_enabled between 0.5 and 1 to MIDI out: 0x98 0x04, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_5_enabled between 0.5 and 1 to MIDI out: 0x97 0x04, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_6_enabled between 0.5 and 1 to MIDI out: 0x98 0x05, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_6_enabled between 0.5 and 1 to MIDI out: 0x97 0x05, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x27, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x26, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_7_enabled between 0.5 and 1 to MIDI out: 0x9A 0x06, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_7_enabled between 0.5 and 1 to MIDI out: 0x99 0x06, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_8_enabled between 0.5 and 1 to MIDI out: 0x98 0x07, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],hotcue_8_enabled between 0.5 and 1 to MIDI out: 0x97 0x07, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler9],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x30, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler9],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x30, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler12],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x33, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler12],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x33, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler16],track_loaded between 0.5 and 1 to MIDI out: 0x9A 0x37, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler16],track_loaded between 0.5 and 1 to MIDI out: 0x99 0x37, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_3_enabled between 0.5 and 1 to MIDI out: 0x9A 0x02, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_3_enabled between 0.5 and 1 to MIDI out: 0x99 0x02, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],sync_enabled between 0.5 and 1 to MIDI out: 0x90 0x58, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler4],track_loaded between 0.5 and 1 to MIDI out: 0x98 0x33, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Sampler4],track_loaded between 0.5 and 1 to MIDI out: 0x97 0x33, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_1_enabled between 0.5 and 1 to MIDI out: 0x98 0x62, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_1_enabled between 0.5 and 1 to MIDI out: 0x97 0x62, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_1_enabled between 0.5 and 1 to MIDI out: 0x9A 0x00, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel2],hotcue_1_enabled between 0.5 and 1 to MIDI out: 0x99 0x00, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_32_enabled between 0.5 and 1 to MIDI out: 0x98 0x67, on: 0x7F off: 0x00
+Debug [Controller]: Creating output handler for [Channel1],beatloop_32_enabled between 0.5 and 1 to MIDI out: 0x97 0x67, on: 0x7F off: 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 97 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x61, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 97 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x61, val 0x00
+Debug [Controller]: sending MIDI bytes: 145 , 84 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x54, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 1 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 1 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 99 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x63, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 99 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x63, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 7 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 7 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 55 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 55 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 50 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 50 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: sending MIDI bytes: 145 , 88 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x58, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 54 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 54 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 0 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 0 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 2 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 2 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: sending MIDI bytes: 144 , 71 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x47, val 0x00
+Debug [Controller]: sending MIDI bytes: 144 , 11 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x0B, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 1 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 1 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 50 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 50 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 98 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x62, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 98 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x62, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 54 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 54 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: sending MIDI bytes: 144 , 71 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x47, val 0x00
+Debug [Controller]: sending MIDI bytes: 144 , 12 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x0C, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 97 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x61, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 97 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x61, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 102 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x66, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 102 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x66, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 99 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x63, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 99 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x63, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 3 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 3 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 49 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 49 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: sending MIDI bytes: 144 , 84 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x54, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 96 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x60, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 96 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x60, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 101 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x65, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 101 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x65, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 53 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 53 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 100 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x64, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 100 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x64, val 0x00
+Debug [Controller]: sending MIDI bytes: 145 , 71 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x47, val 0x00
+Debug [Controller]: sending MIDI bytes: 145 , 11 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x0B, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 49 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 49 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 53 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 53 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: sending MIDI bytes: 145 , 71 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x47, val 0x00
+Debug [Controller]: sending MIDI bytes: 145 , 12 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x0C, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 4 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 4 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 39 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x27, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 38 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x26, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 5 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 5 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 6 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 6 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 101 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x65, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 101 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x65, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 102 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x66, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 102 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x66, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 3 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 3 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 52 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 52 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 96 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x60, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 96 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x60, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 100 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x64, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 100 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x64, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 103 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x67, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 103 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x67, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 48 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 48 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 52 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 52 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 4 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 4 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 5 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 5 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 39 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x27, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 38 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x26, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 6 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 6 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 7 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 7 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 48 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 48 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 51 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 51 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 55 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 55 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 2 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 2 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: sending MIDI bytes: 144 , 88 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x58, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 51 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 51 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 98 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x62, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 98 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x62, val 0x00
+Debug [Controller]: sending MIDI bytes: 154 , 0 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: sending MIDI bytes: 153 , 0 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: sending MIDI bytes: 152 , 103 , 0
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x67, val 0x00
+Debug [Controller]: sending MIDI bytes: 151 , 103 , 0
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler22]"
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x67, val 0x00
+Debug [Controller]: Controller polling started.
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler23]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler24]"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-12-09_13h18m01s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-12-09_13h18m01s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-12-09_13h18m01s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-12-09_13h18m01s.mp3"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler25]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler26]"
+Debug [Controller]: DDJ-400 MIDI 1: t:11 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x04, val 0x2D
+Debug [Controller]: DDJ-400 MIDI 1: t:11 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x24, val 0x71
+Debug [Controller]: DDJ-400 MIDI 1: t:12 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x04, val 0x29
+Debug [Controller]: DDJ-400 MIDI 1: t:12 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x24, val 0x07
+Debug [Controller]: DDJ-400 MIDI 1: t:13 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x07, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:13 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x27, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:14 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x07, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:14 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x27, val 0x00
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler27]"
+Debug [Controller]: DDJ-400 MIDI 1: t:15 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x0B, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:15 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x2B, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:16 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x0B, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:16 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x2B, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:17 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x0F, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:17 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x2F, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:18 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x0F, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:18 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x2F, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:19 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x13, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: t:19 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x33, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: t:20 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x13, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: t:20 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x33, val 0x7F
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler28]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler29]"
+Debug [Controller]: DDJ-400 MIDI 1: t:21 ms status 0xB6 (ch 7, opcode 0xB), ctrl 0x1F, val 0x49
+Debug [Controller]: DDJ-400 MIDI 1: t:21 ms status 0xB6 (ch 7, opcode 0xB), ctrl 0x3F, val 0x60
+Debug [Controller]: DDJ-400 MIDI 1: t:22 ms status 0xB6 (ch 7, opcode 0xB), ctrl 0x17, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:22 ms status 0xB6 (ch 7, opcode 0xB), ctrl 0x37, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:23 ms status 0xB6 (ch 7, opcode 0xB), ctrl 0x18, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:23 ms status 0xB6 (ch 7, opcode 0xB), ctrl 0x38, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:24 ms status 0xB4 (ch 5, opcode 0xB), ctrl 0x02, val 0x2E
+Debug [Controller]: DDJ-400 MIDI 1: t:24 ms status 0xB4 (ch 5, opcode 0xB), ctrl 0x22, val 0x18
+Debug [Controller]: DDJ-400 MIDI 1: t:25 ms status 0x94 (ch 5, opcode 0x9), ctrl 0x10, val 0x7F
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler30]"
+Debug [LibraryScanner 1]: LibraryScanner - Recursively scanning library.
+Debug [LibraryScanner 1]: SqlTransaction - Started new SQL database transaction on "MIXXX-2"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler31]"
+Debug [Controller]: DDJ-400 MIDI 1: t:26 ms status 0x94 (ch 5, opcode 0x9), ctrl 0x11, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:27 ms status 0x94 (ch 5, opcode 0x9), ctrl 0x14, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:28 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x00, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:28 ms status 0xB0 (ch 1, opcode 0xB), ctrl 0x20, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:29 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x00, val 0x40
+Debug [Controller]: DDJ-400 MIDI 1: t:29 ms status 0xB1 (ch 2, opcode 0xB), ctrl 0x20, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:30 ms status 0x9F (ch 16, opcode 0x9), ctrl 0x47, val 0x7F
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-07_21h03m21s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-07_21h03m21s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-07_21h03m21s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-07_21h03m21s.mp3"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler32]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler33]"
+Debug [Controller]: DDJ-400 MIDI 1: t:31 ms status 0x9F (ch 16, opcode 0x9), ctrl 0x49, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: t:32 ms status 0x94 (ch 5, opcode 0x9), ctrl 0x10, val 0x7F
+Debug [Controller]: DDJ-400 MIDI 1: t:33 ms status 0x94 (ch 5, opcode 0x9), ctrl 0x11, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: t:34 ms status 0x94 (ch 5, opcode 0x9), ctrl 0x14, val 0x00
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler34]"
+Debug [LibraryScanner 1]: LibraryScanner - slotFinishHashedScan
+Debug [LibraryScanner 1]: LibraryScanner - slotFinishUnhashedScan
+Debug [LibraryScanner 1]: LibraryScanner - Recursive scanning finished cleanly
+Debug [LibraryScanner 1]: SqlTransaction - Committed SQL database transaction on "MIXXX-2"
+Debug [LibraryScanner 1]: DbConnectionPooled - Found thread-local database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [LibraryScanner 1]: LibraryScanner - Marking tracks in changed directories as verified
+Debug [LibraryScanner 1]: LibraryScanner - Marking unchanged directories and tracks as verified
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler35]"
+Debug [LibraryScanner 1]: LibraryScanner - Checking remaining unverified tracks
+Debug [LibraryScanner 1]: LibraryScanner - Marking unverified tracks as deleted
+Debug [LibraryScanner 1]: LibraryScanner - Marking unverified directories as deleted
+Debug [LibraryScanner 1]: LibraryScanner - Detecting moved files
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler36]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler37]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler38]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler39]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler40]"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-02-20_20h01m21s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-02-20_20h01m21s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-02-20_20h01m21s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-02-20_20h01m21s.mp3"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler41]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler42]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler43]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler44]"
+Debug [LibraryScanner 1]: Committing transaction on "MIXXX-2" result: true
+Debug [LibraryScanner 1]: LibraryScanner - Detecting cover art for unscanned files
+Debug [LibraryScanner 1]: LibraryScanner - Scan finished cleanly
+Debug [LibraryScanner 1]: Scan took: 66145040 ns. 135 unchanged directories. 1 changed/added directories. 0 tracks verified from changed/added directories. 0 new tracks.
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler45]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler46]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler47]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler48]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler49]"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-11-18_21h06m47s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-11-18_21h06m47s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-11-18_21h06m47s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-11-18_21h06m47s.mp3"
+Debug [BrowseThread]: Append  10  from  "/home/justin/Music/Mixxx/Recordings/2020-11-18_21h06m47s.mp3"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler50]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler51]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler52]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler53]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler54]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler55]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler56]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler57]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler58]"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-11-18_18h47m25s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-11-18_18h47m25s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-11-18_18h47m25s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-11-18_18h47m25s.mp3"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler59]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler60]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler61]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler62]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler63]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler64]"
+Debug [Main]: SoundManager::setupDevices()
+Debug [Main]: SoundDevicePortAudio::open() "SoundDeviceId(DDJ-400: USB Audio, hw:0,0, 0)"
+Debug [Main]: framesPerBuffer: 1024
+Debug [Main]: Requested sample rate:  44100 Hz, latency: 23.22 ms
+Debug [Main]: Output channels: 4 | Input channels: 0
+Debug [Main]: Opening stream with id 0
+Debug [Main]: Opened PortAudio stream successfully... starting
+Info [Main]: Enabling ALSA real-time scheduling
+Debug [Main]: PortAudio: Started stream successfully
+Debug [Main]:    Actual sample rate:  44100 Hz, latency: 23.22 ms
+Debug [Main]: SoundDeviceNetwork - open: "Network stream"
+Debug [Main]: framesPerBuffer: 1024
+Debug [Main]: Requested sample rate:  44100 Hz, latency: 23219954 ns
+Debug [Main]: Using "DDJ-400: USB Audio (hw:0,0)" as output sound device clock reference
+Debug [Main]: 2 output sound devices opened
+Debug [Main]: 0 input sound devices opened
+Debug [Main]: Displaying main window
+Debug [Main]: Running Mixxx
+Debug [Main]: ControllerManager::getControllerList
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-20_08h04m31s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-20_08h04m31s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-20_08h04m31s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-20_08h04m31s.mp3"
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x55824dd94cd0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x55824dd957e0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x55824dd96010)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x55824dd96450)
+Debug []: SSE: Denormals to zero mode already enabled
+Debug []: SSE: Flush to zero mode already enabled
+Debug []: Denormals to zero mode is working
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-07_12h30m02s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-07_12h30m02s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-07_12h30m02s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-07_12h30m02s.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-12-26_23h37m36s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-12-26_23h37m36s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-12-26_23h37m36s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-12-26_23h37m36s.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-11-25_13h57m45s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-11-25_13h57m45s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-11-25_13h57m45s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-11-25_13h57m45s.mp3"
+Warning [Engine]: SoundDevicePortAudio: Audio API provides invalid time stamps, syncing waveforms with a CPU Timer DacTime: 56962.1 EntrytoDac: 0.0288662 TimeSinceLastCb: 0.0229994 diff: 0.00630813
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x55824dd906a0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558250376930)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558250377510)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558250377ab0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558250377e70)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x5582503781a0)
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_10h09m06s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-09_10h09m06s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-09_10h09m06s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-09_10h09m06s.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/Purge.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/Purge.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/Purge.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/Purge.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-03-06_19h28m19s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-03-06_19h28m19s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-03-06_19h28m19s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-03-06_19h28m19s.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/steyoyoke-24-11-2020.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/steyoyoke-24-11-2020.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/steyoyoke-24-11-2020.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/steyoyoke-24-11-2020.mp3"
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558250377810)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558252986a70)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558252987650)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558252987f30)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558252988370)
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-06-08_17h33m27s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-06-08_17h33m27s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-06-08_17h33m27s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-06-08_17h33m27s.mp3"
+Debug [BrowseThread]: Append  10  from  "/home/justin/Music/Mixxx/Recordings/2019-06-08_17h33m27s.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-11-18_19h08m50s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-11-18_19h08m50s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-11-18_19h08m50s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-11-18_19h08m50s.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-03-21_19h17m17s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-03-21_19h17m17s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-03-21_19h17m17s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-03-21_19h17m17s.mp3"
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2020-03-22_19h37m20s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2020-03-22_19h37m20s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2020-03-22_19h37m20s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2020-03-22_19h37m20s.mp3"
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558252982d50)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558254f51d20)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x5582530176d0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558254f52e60)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558254f531e0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558254f53510)
+Debug [BrowseThread]: SoundSourceProxy - SoundSourceProvider "MAD: MPEG Audio Decoder" created a SoundSource for file "file:///home/justin/Music/Mixxx/Recordings/2019-05-27_17h26m43s.mp3" of type "mp3"
+Info [BrowseThread]: MetadataSourceTagLib - No track metadata or cover art found in file "/home/justin/Music/Mixxx/Recordings/2019-05-27_17h26m43s.mp3" with type 3
+Info [BrowseThread]: SoundSourceProxy - Parsing missing artist/title from file name: QFileInfo(/home/justin/Music/Mixxx/Recordings/2019-05-27_17h26m43s.mp3)
+Debug [BrowseThread]: SoundSourceProxy - Initializing track metadata and embedded cover art from file "file:///home/justin/Music/Mixxx/Recordings/2019-05-27_17h26m43s.mp3"
+Debug [BrowseThread]: Append last  4
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x5582530176f0)
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: LibraryTableModel(0x5582471c82c0) select() took 3 ms 1068
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: MissingTableModel(0x558248d03300) select() took 0 ms 43
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: HiddenTableModel(0x5582479dcd00) select() took 0 ms 101
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: AnalysisLibraryTableModel(0x558248e57200) select() took 2 ms 16
+Debug [Main]: rowCount() QModelIndex(-1,-1,0x0,QObject(0x0)) 0
+Debug [Main]: AnalysisLibraryTableModel(0x558248e57200) select() took 2 ms 16
+Debug [Main]: DBus screensaver  org.freedesktop.ScreenSaver  uninhibited
+Debug [Main]: 14 ms stopping pending Library tasks
+Debug [Main]: Destroying MixxxMainWindow
+Debug [Main]: 14 ms saving configuration
+Debug [Main]: 16 ms deleting skin
+Debug [Main]: ~DlgAutoDJ()
+Debug [Main]: 128 ms deleting menubar
+Debug [Main]: 129 ms deleting SoundManager
+Debug [Main]: 147 ms deleting ControllerManager
+Debug [Controller]: Controller polling stopped.
+Debug [Controller]: Deleting PortMIDI devices...
+Debug [Controller]:   Shutting down engine
+Debug [Controller]: ControllerEngine shutting down...
+Debug [Controller]: Invoking shutdown() hook in scripts
+Debug [Controller]: ControllerEngine: Executing PioneerDDJ400 . shutdown
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0xB0 (ch 1, opcode 0xB), ctrl 0x02, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0xB0 (ch 1, opcode 0xB), ctrl 0x02, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x30, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x31, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x32, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x33, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x34, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x35, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x36, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x37, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x00, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x01, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x02, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x03, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x04, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x05, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x06, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x97 (ch 8, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x98 (ch 9, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x99 (ch 10, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x9A (ch 11, opcode 0x9), ctrl 0x07, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x10, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x11, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x4E, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x4C, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x10, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x11, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x4E, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x4C, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x4D, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x90 (ch 1, opcode 0x9), ctrl 0x50, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x4D, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x91 (ch 2, opcode 0x9), ctrl 0x50, val 0x00
+Debug [Controller]: DDJ-400 MIDI 1: outgoing: status 0x94 (ch 5, opcode 0x9), ctrl 0x47, val 0x00
+Debug [Controller]: Clearing function wrapper cache
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1_Effect3]" "enabled"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler10]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler13]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler1]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler11]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1]" "show_focus"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler2]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler3]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1]" "focused_effect"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler4]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler14]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Channel2]" "track_loaded"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler16]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler15]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler5]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Channel2]" "rate"
+Debug [Controller]: Deleting ControlObjectScript "[Channel2]" "VuMeter"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1]" "group_[Channel2]_enable"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler7]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler6]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1]" "group_[Channel1]_enable"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1]" "group_[Master]_enable"
+Debug [Controller]: Deleting ControlObjectScript "[Channel1]" "VuMeter"
+Debug [Controller]: Deleting ControlObjectScript "[Channel1]" "track_loaded"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1_Effect2]" "enabled"
+Debug [Controller]: Deleting ControlObjectScript "[Channel1]" "rate"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler8]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Channel1]" "loop_enabled"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1_Effect1]" "enabled"
+Debug [Controller]: Deleting ControlObjectScript "[Channel2]" "loop_enabled"
+Debug [Controller]: Deleting ControlObjectScript "[EffectRack1_EffectUnit1_Effect2]" "meta"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler9]" "play"
+Debug [Controller]: Deleting ControlObjectScript "[Sampler12]" "play"
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_32_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_32_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler4],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler4],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],sync_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_3_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_3_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler16],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler16],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler12],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler12],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler9],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler9],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_7_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_7_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_6_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_6_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_5_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_5_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler5],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler5],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler1],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler1],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_32_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_32_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_0.25_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_0.25_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler13],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler13],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_16_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_16_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_7_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_7_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_6_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_6_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_5_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_5_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],cue_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],cue_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler6],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler6],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler2],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler2],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],play_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],play_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler14],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler14],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_0.25_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_0.25_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],pfl
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler10],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler10],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_4_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_16_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_16_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_0.5_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_0.5_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],cue_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],cue_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler7],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler7],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],beatloop_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler3],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler3],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],play_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],play_indicator
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_3_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_3_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],hotcue_1_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler15],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler15],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],sync_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler11],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler11],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler8],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Sampler8],track_loaded
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_8_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],hotcue_2_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel2],pfl
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_0.5_enabled
+Debug [Controller]: Destroying static MIDI output handler on DDJ-400 MIDI 1 for [Channel1],beatloop_0.5_enabled
+Debug [Controller]: Deleting USB Bulk devices...
+Debug [Controller]: Deleting HID devices...
+Debug [Main]: 165 ms deleting VinylControlManager
+Debug [Main]: 165 ms deleting PlayerManager
+Debug [Main]: PlayerManager - Destroying
+Debug [Main]: TrackAnalysisScheduler - Stopping
+Debug [AnalyzerThread 0 #2]: AnalyzerWaveform - ~AnalyzerWaveform():
+Debug [AnalyzerThread 1 #1]: AnalyzerWaveform - ~AnalyzerWaveform():
+Debug [AnalyzerThread 1 #1]: AnalyzerThread - Exiting worker thread
+Debug [AnalyzerThread 0 #2]: AnalyzerThread - Exiting worker thread
+Debug [Main]: TrackAnalysisScheduler - Stopping
+Debug [AnalyzerThread 1 #1]: DbConnection - Closing database connection: "MIXXX-4" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 1 #1]: AnalyzerThread 1 - Exiting
+Debug [AnalyzerThread 0 #2]: DbConnection - Closing database connection: "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 0 #2]: AnalyzerThread 0 - Exiting
+Debug [Main]: 170 ms deleting Library
+Debug [Main]: Wait to finish browser background thread
+Debug [Main]: Browser background thread terminated!
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: PlaylistDAO::getHiddenType returns PLHT_UNKNOWN for playlistId  555
+Debug [Main]: 213 ms deleting RecordingManager
+Debug [Main]: Delete RecordingManager
+Debug [Main]: 213 ms deleting BroadcastManager
+Debug [Main]: DlgPrefBroadcast - broadcastEnabledChanged() 0
+Debug [Main]: 215 ms deleting EngineMaster
+Debug [Main]: 320 ms deleting DlgPreferences
+Debug [Main]: 354 ms deleting EffectsManager
+Debug [Main]: 372 ms detaching all track collections
+Info [Main]: TrackCollectionManager - Stopping library scanner thread
+Debug [LibraryScanner 1]: LibraryScanner - Event loop stopped
+Debug [LibraryScanner 1]: DbConnection - Closing database connection: "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Warning [LibraryScanner 1]: QSqlDatabasePrivate::removeDatabase: connection 'MIXXX-2' is still in use, all queries will cease to work.
+Debug [LibraryScanner 1]: LibraryScanner - Exiting thread
+Info [Main]: TrackCollectionManager - Stopped library scanner thread
+Debug [Main]: ~TrackDAO()
+Info [Main]: TrackCollection - Disconnecting track source
+Info [Main]: TrackCollection - Disconnecting database
+Debug [Main]: TrackDAO::finish()
+Debug [Main]: Clearing played information for this session
+Debug [Main]: Cleaning LibraryHashes/track_locations tables.
+Debug [Main]: SqlTransaction - Started new SQL database transaction on "MIXXX-1"
+Debug [Main]: SqlTransaction - Committed SQL database transaction on "MIXXX-1"
+Info [Main]: GlobalTrackCache - Destroying instance
+Debug [Main]: TrackCollection - ~TrackCollection()
+Debug [Main]: ~TrackDAO()
+Debug [Main]: 377 ms closing database connection(s)
+Debug [Main]: DbConnection - Closing database connection: "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="file:///home/justin/.mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [Main]: 378 ms deleting SettingsManager
+Debug [StatsManager]: StatsManager thread shutting down.
+Debug [Main]: StatsManager shutdown report:
+Debug [Main]: =====================================
+Debug [Main]: ALL STATS
+Debug [Main]: =====================================
+Debug [Main]: Stat("BrowseThread","count=4")
+Debug [Main]: Stat("BrowseThread_duration","count=2,average=2.47387e+08ns,min=889ns,max=4.94773e+08ns,variance=1.224e+17ns^2,stddev=3.49857e+08ns")
+Debug [Main]: Stat("CachingReaderWorker [Channel1]","count=3")
+Debug [Main]: Stat("CachingReaderWorker [Channel2]","count=3")
+Debug [Main]: Stat("CachingReaderWorker [PreviewDeck1]","count=3")
+Debug [Main]: Stat("CachingReaderWorker [Sampler10]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler11]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler12]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler13]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler14]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler15]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler16]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler17]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler18]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler19]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler1]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler20]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler21]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler22]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler23]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler24]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler25]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler26]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler27]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler28]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler29]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler2]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler30]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler31]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler32]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler33]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler34]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler35]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler36]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler37]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler38]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler39]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler3]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler40]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler41]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler42]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler43]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler44]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler45]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler46]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler47]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler48]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler49]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler4]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler50]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler51]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler52]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler53]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler54]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler55]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler56]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler57]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler58]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler59]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler5]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler60]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler61]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler62]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler63]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler64]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler6]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler7]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler8]","count=5")
+Debug [Main]: Stat("CachingReaderWorker [Sampler9]","count=5")
+Debug [Main]: Stat("EngineSideChain","count=7")
+Debug [Main]: Stat("EngineSideChain::process","count=6")
+Debug [Main]: Stat("EngineSideChain::process_duration","count=3,average=14518.7ns,min=2385ns,max=32503ns,variance=2.52446e+08ns^2,stddev=15888.6ns")
+Debug [Main]: Stat("EngineSideChain::writeSamples","count=106")
+Debug [Main]: Stat("EngineSideChain::writeSamples wake up","count=4")
+Debug [Main]: Stat("EngineSideChain::writeSamples wake up_duration","count=2,average=17071.5ns,min=16456ns,max=17687ns,variance=757681ns^2,stddev=870.448ns")
+Debug [Main]: Stat("EngineSideChain::writeSamples_duration","count=53,average=14213.7ns,min=2186ns,max=75626ns,variance=2.64077e+08ns^2,stddev=16250.4ns")
+Debug [Main]: Stat("EngineWorkerScheduler","count=4")
+Debug [Main]: Stat("LibraryScanner","count=2")
+Debug [Main]: Stat("LibraryScanner::queueTask","count=136,sum=250745ns,average=1843.71ns,min=1055ns,max=65764ns,variance=3.31826e+07ns^2,stddev=5760.44ns")
+Debug [Main]: Stat("LibraryScanner::slotDirectoryHashedAndScanned","count=1,sum=116590ns,average=116590ns,min=116590ns,max=116590ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("LibraryScanner::slotDirectoryUnchanged","count=135,sum=182940ns,average=1355.11ns,min=767ns,max=6777ns,variance=679996ns^2,stddev=824.619ns")
+Debug [Main]: Stat("LibraryScanner_duration","count=1,average=1.93522e+09ns,min=1.93522e+09ns,max=1.93522e+09ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("MixxxMainWindow::connectMenuBar","count=1,sum=25938ns,average=25938ns,min=25938ns,max=25938ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("MixxxMainWindow::createMenuBar","count=1,sum=1.02237e+07ns,average=1.02237e+07ns,min=1.02237e+07ns,max=1.02237e+07ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("MixxxMainWindow::initialize","count=1,sum=6.25606e+08ns,average=6.25606e+08ns,min=6.25606e+08ns,max=6.25606e+08ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("MixxxMainWindow::runtime","count=1,sum=2.21408e+09ns,average=2.21408e+09ns,min=2.21408e+09ns,max=2.21408e+09ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("MixxxMainWindow::~finalize","count=1,sum=3.7882e+08ns,average=3.7882e+08ns,min=3.7882e+08ns,max=3.7882e+08ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("RecursiveScanDirectoryTask::run","count=136,sum=8.54873e+06ns,average=62858.3ns,min=17232ns,max=2.57342e+06ns,variance=4.88759e+10ns^2,stddev=221079ns")
+Debug [Main]: Stat("SkinLoader::loadConfiguredSkin","count=1,sum=1.2801e+08ns,average=1.2801e+08ns,min=1.2801e+08ns,max=1.2801e+08ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("SkinLoader::parseSkin","count=1,sum=1.27537e+08ns,average=1.27537e+08ns,min=1.27537e+08ns,max=1.27537e+08ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("SoundDevicePortAudio::callbackProcess output DDJ-400: USB Audio, hw:0,0, 0","count=53,sum=1.04222e+06ns,average=19664.5ns,min=5380ns,max=61188ns,variance=1.58715e+08ns^2,stddev=12598.2ns")
+Debug [Main]: Stat("SoundDevicePortAudio::callbackProcess prepare DDJ-400: USB Audio, hw:0,0, 0","count=53,sum=5.50381e+06ns,average=103845ns,min=48100ns,max=207591ns,variance=1.85185e+09ns^2,stddev=43033.1ns")
+Debug [Main]: Stat("SoundDevicePortAudio::callbackProcessClkRef DDJ-400: USB Audio, hw:0,0, 0","count=106")
+Debug [Main]: Stat("SoundDevicePortAudio::callbackProcessClkRef DDJ-400: USB Audio, hw:0,0, 0_duration","count=53,average=152766ns,min=64840ns,max=322134ns,variance=4.14599e+09ns^2,stddev=64389.4ns")
+Debug [Main]: Stat("WaveformWidgetFactory::render() 0waveforms","count=2,sum=41467ns,average=20733.5ns,min=13956ns,max=27511ns,variance=9.1869e+07ns^2,stddev=9584.83ns")
+Debug [Main]: Stat("WaveformWidgetFactory::render() 2waveforms","count=23,sum=3.09942e+06ns,average=134757ns,min=4385ns,max=277778ns,variance=1.22236e+10ns^2,stddev=110560ns")
+Debug [Main]: Stat("WaveformWidgetFactory::swap() 0waveforms","count=1,sum=6794ns,average=6794ns,min=6794ns,max=6794ns,variance=0ns^2,stddev=0ns")
+Debug [Main]: Stat("WaveformWidgetFactory::swap() 2waveforms","count=23,sum=425716ns,average=18509.4ns,min=6113ns,max=28965ns,variance=3.12906e+07ns^2,stddev=5593.8ns")
+Debug [Main]: Stat("control [Master],audio_latency_overload_count","count=1,sum=0,average=0,min=0,max=2.22507e-308,variance=0^2,stddev=0")
+Debug [Main]: Stat("control [Master],latency","count=2,sum=23.22,average=11.61,min=0,max=23.22,variance=269.583^2,stddev=16.419")
+Debug [Main]: Stat("control [Master],num_auxiliaries","count=5,sum=10,average=2,min=0,max=4,variance=2.5^2,stddev=1.58114")
+Debug [Main]: Stat("control [Master],num_decks","count=2,sum=2,average=1,min=0,max=2,variance=2^2,stddev=1.41421")
+Debug [Main]: Stat("control [Master],num_microphones","count=5,sum=10,average=2,min=0,max=4,variance=2.5^2,stddev=1.58114")
+Debug [Main]: Stat("control [Master],num_preview_decks","count=2,sum=1,average=0.5,min=0,max=1,variance=0.5^2,stddev=0.707107")
+Debug [Main]: Stat("control [Master],num_samplers","count=54,sum=1970,average=36.4815,min=0,max=64,variance=308.707^2,stddev=17.5701")
+Debug [Main]: Stat("control [Master],samplerate","count=2,sum=44100,average=22050,min=0,max=44100,variance=9.72405e+08^2,stddev=31183.4")
+Debug [Main]: =====================================
+Debug [Main]: Mixxx shutdown complete with code 0
+QThreadStorage: Thread 0x5582451e3590 exited after QThreadStorage 3 destroyed

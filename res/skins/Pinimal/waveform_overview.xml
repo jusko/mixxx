@@ -1,0 +1,96 @@
+<!DOCTYPE template>
+<Template>
+  <WidgetGroup>
+    <Layout>horizontal</Layout>
+    <Children>
+      <Overview>
+        <TooltipId>waveform_overview</TooltipId>
+        <Group><Variable name="group"/></Group>
+        <Size>me,50</Size>
+        <BgColor>#333333</BgColor>
+        <PlayedOverlayColor></PlayedOverlayColor>
+        <SignalHighColor></SignalHighColor>
+        <SignalMidColor></SignalMidColor>
+        <SignalLowColor></SignalLowColor>
+        <SignalRGBHighColor></SignalRGBHighColor>
+        <SignalRGBMidColor></SignalRGBMidColor>
+        <SignalRGBLowColor></SignalRGBLowColor>
+        <SignalColor>#E67A00</SignalColor>
+        <PlayPosColor>#FFFF33</PlayPosColor>
+        <DefaultMark>
+          <Align>bottom|right</Align>
+          <Color>#619dea</Color>
+          <TextColor>#FFFFFF</TextColor>
+          <Text> %1 </Text>
+        </DefaultMark>
+        <Mark>
+          <Control>cue_point</Control>
+          <Align>top|right</Align>
+          <Color>#FF001C</Color>
+          <TextColor>#FFFFFF</TextColor>
+          <Text>C</Text>
+        </Mark>
+        <!-- Loop -->
+        <MarkRange>
+          <StartControl>loop_start_position</StartControl>
+          <EndControl>loop_end_position</EndControl>
+          <EnabledControl>loop_enabled</EnabledControl>
+          <Color>#00FF00</Color>
+          <Opacity>0.7</Opacity>
+          <DisabledColor>#FFFFFF</DisabledColor>
+          <DisabledOpacity>0.6</DisabledOpacity>
+        </MarkRange>
+        <!-- Intro -->
+        <MarkRange>
+          <StartControl>intro_start_position</StartControl>
+          <EndControl>intro_end_position</EndControl>
+          <Color>#0000FF</Color>
+          <Opacity>0.6</Opacity>
+          <DurationTextColor>#ffffff</DurationTextColor>
+          <DurationTextLocation>after</DurationTextLocation>
+        </MarkRange>
+        <Mark>
+          <Control>intro_start_position</Control>
+          <Text></Text>
+          <Align>top|right</Align>
+          <Color>#0000FF</Color>
+          <TextColor>#FFFFFF</TextColor>
+        </Mark>
+        <Mark>
+          <Control>intro_end_position</Control>
+          <Text>&#9698;</Text>
+          <Align>top|left</Align>
+          <Color>#0000FF</Color>
+          <TextColor>#FFFFFF</TextColor>
+        </Mark>
+        <!-- Outro -->
+        <MarkRange>
+          <StartControl>outro_start_position</StartControl>
+          <EndControl>outro_end_position</EndControl>
+          <Color>#0000FF</Color>
+          <Opacity>0.6</Opacity>
+          <DurationTextColor>#ffffff</DurationTextColor>
+          <DurationTextLocation>before</DurationTextLocation>
+        </MarkRange>
+        <Mark>
+          <Control>outro_start_position</Control>
+          <Text>&#9699;</Text>
+          <Align>top|right</Align>
+          <Color>#0000FF</Color>
+          <TextColor>#FFFFFF</TextColor>
+        </Mark>
+        <Mark>
+          <Control>outro_end_position</Control>
+          <Text></Text>
+          <Align>top|left</Align>
+          <Color>#0000FF</Color>
+          <TextColor>#FFFFFF</TextColor>
+        </Mark>
+        <Connection>
+          <ConfigKey><Variable name="group"/>,playposition</ConfigKey>
+          <EmitOnDownPress>false</EmitOnDownPress>
+        </Connection>
+      </Overview>
+    </Children>
+  </WidgetGroup>
+</Template>

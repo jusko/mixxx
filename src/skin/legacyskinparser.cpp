@@ -73,6 +73,7 @@
 #include "widget/wstarrating.h"
 #include "widget/wstatuslight.h"
 #include "widget/wtime.h"
+#include "widget/wtouchscreenlibrary.h"
 #include "widget/wtrackproperty.h"
 #include "widget/wtracktext.h"
 #include "widget/wtrackwidgetgroup.h"
@@ -599,6 +600,8 @@ QList<QWidget*> LegacySkinParser::parseNode(const QDomElement& node) {
         parseSingletonDefinition(node);
     } else if (nodeName == "SingletonContainer") {
         result = wrapWidget(parseStandardWidget<WSingletonContainer>(node));
+    } else if (nodeName == "TouchScreenLibrary") {
+        result = wrapWidget(parseTouchScreenLibrary(node));
     } else {
         SKIN_WARNING(node, *m_pContext) << "Invalid node name in skin:"
                                        << nodeName;
@@ -1339,6 +1342,15 @@ void LegacySkinParser::parseSingletonDefinition(const QDomElement& node) {
     pChild->setObjectName(objectName);
     m_pContext->defineSingleton(objectName, pChild);
     pChild->hide();
+}
+
+QWidget* LegacySkinParser::parseTouchScreenLibrary(const QDomElement& node) {
+    WTouchScreenLibrary* pTouchWidget = new WTouchScreenLibrary(m_pParent,
+                                                                m_pLibrary,
+                                                                m_pPlayerManager);
+
+    commonWidgetSetup(node, pTouchWidget, false);
+    return pTouchWidget;
 }
 
 QWidget* LegacySkinParser::parseLibrary(const QDomElement& node) {

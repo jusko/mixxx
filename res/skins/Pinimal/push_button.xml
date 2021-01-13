@@ -1,0 +1,19 @@
+<!DOCTYPE template>
+<Template>
+  <PushButton>
+    <ObjectName>Button</ObjectName>
+    <NumberStates>1</NumberStates>
+    <Size>me, 20</Size>
+    <State>
+      <Number>0</Number>
+      <Text><Variable name="title"/></Text>
+      <Pressed scalemode="STRETCH_ASPECT"><Variable name="state_0_pressed"/></Pressed>
+      <Unpressed scalemode="STRETCH_ASPECT"><Variable name="state_0_unpressed"/></Unpressed>
+    </State>
+    <Connection>
+      <ConfigKey><Variable name="control"/></ConfigKey>
+      <EmitOnPress>true</EmitOnPress>
+      <ButtonState>LeftButton</ButtonState>
+    </Connection>
+  </PushButton>
+</Template>

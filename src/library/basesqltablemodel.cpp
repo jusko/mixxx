@@ -194,7 +194,7 @@ void BaseSqlTableModel::select() {
     // We should be able to detect when a select() would be a no-op. The DAO's
     // do not currently broadcast signals for when common things happen. In the
     // future, we can turn this check on and avoid a lot of needless
-    // select()'s. rryan 9/2011
+    // select()'s. rryan 9/2011 *facepalm*
     // if (!m_bDirty) {
     //     if (sDebug) {
     //         qDebug() << this << "Skipping non-dirty select()";
@@ -562,7 +562,7 @@ void BaseSqlTableModel::sort(int column, Qt::SortOrder order) {
 
 int BaseSqlTableModel::rowCount(const QModelIndex& parent) const {
     int count = parent.isValid() ? 0 : m_rowInfo.size();
-    //qDebug() << "rowCount()" << parent << count;
+    qDebug() << "rowCount()" << parent << count;
     return count;
 }
 

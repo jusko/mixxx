@@ -600,6 +600,7 @@ add_library(mixxx-lib STATIC EXCLUDE_FROM_ALL
   src/library/librarycontrol.cpp
   src/library/libraryfeature.cpp
   src/library/librarytablemodel.cpp
+  src/library/litetracklistmodel.cpp
   src/library/locationdelegate.cpp
   src/library/missingtablemodel.cpp
   src/library/mixxxlibraryfeature.cpp
@@ -936,6 +937,7 @@ add_library(mixxx-lib STATIC EXCLUDE_FROM_ALL
   src/widget/wstarrating.cpp
   src/widget/wstatuslight.cpp
   src/widget/wtime.cpp
+  src/widget/wtouchscreenlibrary.cpp
   src/widget/wtrackmenu.cpp
   src/widget/wtrackproperty.cpp
   src/widget/wtracktableview.cpp
@@ -1827,12 +1829,14 @@ find_package(Qt5
     Gui
     Network
     OpenGL
+    Qml
     Script
     ScriptTools
     Sql
     Svg
     Test
     Widgets
+    QuickWidgets
     Xml
   REQUIRED
 )
@@ -1842,12 +1846,14 @@ target_link_libraries(mixxx-lib PUBLIC
   Qt5::Gui
   Qt5::Network
   Qt5::OpenGL
+  Qt5::Qml
   Qt5::Script
   Qt5::ScriptTools
   Qt5::Sql
   Qt5::Svg
   Qt5::Test
   Qt5::Widgets
+  Qt5::QuickWidgets
   Qt5::Xml)
 target_compile_definitions(mixxx-lib PUBLIC QT_TABLET_SUPPORT QT_USE_QSTRINGBUILDER)
 if(UNIX AND NOT APPLE)

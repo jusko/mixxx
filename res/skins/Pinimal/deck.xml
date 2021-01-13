@@ -1,0 +1,11 @@
+<!DOCTYPE template>
+<Template>
+  <WidgetGroup>
+    <Layout>vertical</Layout>
+    <Children>
+      <Template src="skin:track_info.xml"/>
+      <Template src="skin:waveform_overview.xml"/>
+      <Template src="skin:waveform.xml"/>
+    </Children>
+  </WidgetGroup>
+</Template>

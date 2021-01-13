@@ -1,0 +1,7 @@
+#TrackInfo {
+  background-color: #ffffff;
+}
+
+#TrackInfoItem {
+  padding-right: 1em;
+}

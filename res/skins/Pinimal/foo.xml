@@ -1,0 +1,17 @@
+<!DOCTYPE template>
+<Template>
+  <WidgetGroup>
+    <Layout>horizontal</Layout>
+    <Children>
+      <Template src="skin:deck.xml">
+        <SetVariable name="group">[Channel1]</SetVariable>
+      </Template>
+      <Template src="skin:library.xml">
+        <SetVariable name="size">350f,480f</SetVariable>
+      </Template>
+      <Template src="skin:deck.xml">
+        <SetVariable name="group">[Channel2]</SetVariable>
+      </Template>
+    </Children>
+  </WidgetGroup>
+</Template>

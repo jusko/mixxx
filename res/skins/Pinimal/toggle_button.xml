@@ -1,0 +1,21 @@
+<!DOCTYPE template>
+<Template>
+  <PushButton>
+    <ObjectName>Button</ObjectName>
+    <NumberStates>2</NumberStates>
+    <Size>me, 20</Size>
+    <State>
+      <Number>0</Number>
+      <Text><Variable name="title"/></Text>
+    </State>
+    <State>
+      <Number>1</Number>
+      <Text><Variable name="title"/></Text>
+    </State>
+    <Connection>
+      <ConfigKey><Variable name="control"/></ConfigKey>
+      <EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+      <ButtonState>LeftButton</ButtonState>
+    </Connection>
+  </PushButton>
+</Template>

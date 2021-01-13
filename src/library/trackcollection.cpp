@@ -564,3 +564,7 @@ TrackId TrackCollection::addTrack(
     m_trackDao.addTracksFinish(!trackId.isValid());
     return trackId;
 }
+
+void TrackCollection::slotLoadTrackToPlayer(int id, const QString& group, bool play) {
+    emit loadTrackToPlayer(getTrackById(TrackId(id)), group, play);
+}

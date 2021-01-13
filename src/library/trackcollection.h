@@ -129,6 +129,13 @@ class TrackCollection : public QObject,
     void crateSummaryChanged(
             const QSet<CrateId>& crates);
 
+    // TODO: See if this is good, or if it's nasty (in context of things you
+    //       don't yet understand...)
+    void loadTrackToPlayer(TrackPointer pTrack, const QString& group, bool play);
+
+  public slots:
+    void slotLoadTrackToPlayer(int id, const QString& group, bool play = false);
+
   private:
     friend class TrackCollectionManager;
     friend class Upgrade;

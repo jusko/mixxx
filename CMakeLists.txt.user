@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorProject>
+<!-- Written by QtCreator 4.14.0, 2021-01-09T17:33:22. -->
+<qtcreator>
+ <data>
+  <variable>EnvironmentId</variable>
+  <value type="QByteArray">{e051d1e5-f463-47c2-9e0d-d0cb5df8a086}</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.ActiveTarget</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.EditorSettings</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="EditorConfiguration.AutoIndent">true</value>
+   <value type="bool" key="EditorConfiguration.AutoSpacesForTabs">false</value>
+   <value type="bool" key="EditorConfiguration.CamelCaseNavigation">true</value>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.0">
+    <value type="QString" key="language">Cpp</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">CppGlobal</value>
+    </valuemap>
+   </valuemap>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.1">
+    <value type="QString" key="language">QmlJS</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">QmlJSGlobal</value>
+    </valuemap>
+   </valuemap>
+   <value type="int" key="EditorConfiguration.CodeStyle.Count">2</value>
+   <value type="QByteArray" key="EditorConfiguration.Codec">UTF-8</value>
+   <value type="bool" key="EditorConfiguration.ConstrainTooltips">false</value>
+   <value type="int" key="EditorConfiguration.IndentSize">4</value>
+   <value type="bool" key="EditorConfiguration.KeyboardTooltips">false</value>
+   <value type="int" key="EditorConfiguration.MarginColumn">80</value>
+   <value type="bool" key="EditorConfiguration.MouseHiding">true</value>
+   <value type="bool" key="EditorConfiguration.MouseNavigation">true</value>
+   <value type="int" key="EditorConfiguration.PaddingMode">1</value>
+   <value type="bool" key="EditorConfiguration.ScrollWheelZooming">true</value>
+   <value type="bool" key="EditorConfiguration.ShowMargin">false</value>
+   <value type="int" key="EditorConfiguration.SmartBackspaceBehavior">0</value>
+   <value type="bool" key="EditorConfiguration.SmartSelectionChanging">true</value>
+   <value type="bool" key="EditorConfiguration.SpacesForTabs">true</value>
+   <value type="int" key="EditorConfiguration.TabKeyBehavior">0</value>
+   <value type="int" key="EditorConfiguration.TabSize">8</value>
+   <value type="bool" key="EditorConfiguration.UseGlobal">true</value>
+   <value type="int" key="EditorConfiguration.Utf8BomBehavior">1</value>
+   <value type="bool" key="EditorConfiguration.addFinalNewLine">true</value>
+   <value type="bool" key="EditorConfiguration.cleanIndentation">true</value>
+   <value type="bool" key="EditorConfiguration.cleanWhitespace">true</value>
+   <value type="QString" key="EditorConfiguration.ignoreFileTypes">*.md, *.MD, Makefile</value>
+   <value type="bool" key="EditorConfiguration.inEntireDocument">false</value>
+   <value type="bool" key="EditorConfiguration.skipTrailingWhitespace">true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.PluginSettings</variable>
+  <valuemap type="QVariantMap">
+   <valuemap type="QVariantMap" key="AutoTest.ActiveFrameworks">
+    <value type="bool" key="AutoTest.Framework.Boost">true</value>
+    <value type="bool" key="AutoTest.Framework.Catch">true</value>
+    <value type="bool" key="AutoTest.Framework.GTest">true</value>
+    <value type="bool" key="AutoTest.Framework.QtQuickTest">true</value>
+    <value type="bool" key="AutoTest.Framework.QtTest">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyserwaveformtest.cpp:AnalyzerWaveformTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyserwaveformtest.cpp:canary">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyserwaveformtest.cpp:simpleAnalyze">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyzersilence_test.cpp:AnalyzerSilenceTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyzersilence_test.cpp:EndToEndToneTrack">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyzersilence_test.cpp:RespectUserEdits">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyzersilence_test.cpp:SilenceTrack">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyzersilence_test.cpp:ToneTrackWithSilence">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/analyzersilence_test.cpp:ToneTrackWithSilenceInTheMiddle">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/audiotaperpot_test.cpp:AudioTaperPotTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/audiotaperpot_test.cpp:ScaleTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:AutoDJProcessorTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:Decks34PlayingWarning">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:DecksPlayingWarning">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledDisabledSuccess">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledSuccess_DecksStopped">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledSuccess_DecksStopped_TrackLoadFails">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledSuccess_DecksStopped_TrackLoadFailsRightDeck">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledSuccess_PlayingDeck1">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledSuccess_PlayingDeck1_TrackLoadFailed">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledSuccess_PlayingDeck2">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:EnabledSuccess_PlayingDeck2_TrackLoadFailed">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeAtOutroStart_LongerIntro">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeAtOutroStart_LongerOutro">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeToDeck1_LoadOnDeck2_TrackLoadFailed">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeToDeck1_LoadOnDeck2_TrackLoadSuccess">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeToDeck2_LoadOnDeck1_TrackLoadFailed">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeToDeck2_LoadOnDeck1_TrackLoadSuccess">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeToDeck2_Long_Transition">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeToDeck2_Pause_Transition">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FadeToDeck2_SeekEnd">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FullIntroOutro_LongerIntro">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:FullIntroOutro_LongerOutro">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:QueueEmpty">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:TrackZeroLength">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/autodjprocessor_test.cpp:TransitionTimeLoadedFromConfig">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatgridtest.cpp:BeatGridTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatgridtest.cpp:Scale">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatgridtest.cpp:TestNthBeatWhenNotOnBeat">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatgridtest.cpp:TestNthBeatWhenOnBeat">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatgridtest.cpp:TestNthBeatWhenOnBeat_AfterEpsilon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatgridtest.cpp:TestNthBeatWhenOnBeat_BeforeEpsilon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:BeatMapTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:Scale">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:TestBpmAround">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:TestNthBeat">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:TestNthBeatWhenNotOnBeat">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:TestNthBeatWhenOnBeat">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:TestNthBeatWhenOnBeat_AfterEpsilon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatmaptest.cpp:TestNthBeatWhenOnBeat_BeforeEpsilon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatstranslatetest.cpp:BeatsTranslateTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/beatstranslatetest.cpp:SimpleTranslateMatch">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/bpmcontrol_test.cpp:BeatContext_BeatGrid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/bpmcontrol_test.cpp:BpmControlTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/bpmcontrol_test.cpp:ShortestPercentageChange">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastprofile_test.cpp:BroadcastProfileTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastprofile_test.cpp:ConstructWithName">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastprofile_test.cpp:DefaultValues">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastprofile_test.cpp:ForbiddenChars">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastprofile_test.cpp:SaveAndLoadXML">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastprofile_test.cpp:SaveAndLoadXMLDotName">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastprofile_test.cpp:SetGetValues">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastsettings_test.cpp:AddRemoveUpdateFromModel">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastsettings_test.cpp:AvoidExistingFiles">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastsettings_test.cpp:BroadcastSettingsTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastsettings_test.cpp:ReuseExistingFile">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/broadcastsettings_test.cpp:SaveLoadAndRename">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cache_test.cpp:CacheTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cache_test.cpp:InvalidCacheKey">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cache_test.cpp:InvalidCacheKeyEmptyByteArray">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cache_test.cpp:ValidCacheKey">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cache_test.cpp:ValidCacheKeySingleZeroAscii">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cache_test.cpp:ValidCacheKeySingleZeroByte">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/channelhandle_test.cpp:BasicUsage">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/channelhandle_test.cpp:ChannelHandleMap">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/channelhandle_test.cpp:ChannelHandleTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorconfig_test.cpp:ColorConfigTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorconfig_test.cpp:DefaultColorPalette">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorconfig_test.cpp:GetDefaultColorWhenNoStoredColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorconfig_test.cpp:LoadSavePalettes">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorconfig_test.cpp:ReplaceColorPalette">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorconfig_test.cpp:SaveColorPalette">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorconfig_test.cpp:SavingColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colormapperjsproxy_test.cpp:ColorMapperJSProxyTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colormapperjsproxy_test.cpp:GetNearestColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colormapperjsproxy_test.cpp:GetNearestValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colormapperjsproxy_test.cpp:Instantiation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorpalette_test.cpp:ColorPaletteTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorpalette_test.cpp:NextAndPreviousColorRoundtrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorpalette_test.cpp:NextColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/colorpalette_test.cpp:PreviousColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/compatibility_test.cpp:CompatibilityTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/compatibility_test.cpp:uuidToNullableStringWithoutBracesNullTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/compatibility_test.cpp:uuidToNullableStringWithoutBracesValidTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/compatibility_test.cpp:uuidToStringWithoutBracesNullTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/compatibility_test.cpp:uuidToStringWithoutBracesValidTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:ConfigObjectTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:Exists">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:GetValueString">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:GetValue_Bool">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:GetValue_Integer">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:GetValue_QString">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:Save">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:SetValue_Bool">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:SetValue_Integer">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:SetValue_Overwrite">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:SetValue_QString">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/configobject_test.cpp:SetValue_QString_NullVsEmpty">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controller_preset_validation_test.cpp:BulkPresetsValid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controller_preset_validation_test.cpp:ControllerPresetValidationTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controller_preset_validation_test.cpp:HidPresetsValid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controller_preset_validation_test.cpp:MidiPresetsValid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:ControllerEngineTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:commonScriptHasNoErrors">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectControl_ByFunction">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectControl_ByFunctionAllowDuplicateConnections">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectControl_ByLambda">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectControl_ByString">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectControl_ByStringForbidDuplicateConnections">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectControl_ByStringRedundantConnectionObjectsAreNotIndependent">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectControl_toDisconnectRemovesAllConnections">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectionExecutesWithCorrectThisObject">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectionObject_Disconnect">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectionObject_DisconnectByPassingToConnectControl">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectionObject_MakesIndependentConnection">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectionObject_reflectDisconnect">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:connectionObject_trigger">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:getSetParameter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:getSetValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:getValue_InvalidControl">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:log">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:reset">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:setParameter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:setParameter_NaN">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:setParameter_OutOfRange">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:setValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:setValue_IgnoresNaN">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:setValue_InvalidControl">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:softTakeover_ignoreNextValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:softTakeover_setParameter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:softTakeover_setValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controllerengine_test.cpp:trigger">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:AliasRetrieval">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:ControlObjectTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:Persistence_EmptyValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:Persistence_InvalidValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:Persistence_NotPresent">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:Persistence_ValidValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:SetGet">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/controlobjecttest.cpp:getControl">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/coverartcache_test.cpp:CoverArtCacheTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/coverartcache_test.cpp:loadCoverFromFileAbsolute">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/coverartcache_test.cpp:loadCoverFromFileRelative">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/coverartcache_test.cpp:loadCoverFromMetadata">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/coverartutils_test.cpp:CoverArtUtilTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/coverartutils_test.cpp:extractEmbeddedCover">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/coverartutils_test.cpp:searchImage">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cratestorage_test.cpp:CrateStorageTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cratestorage_test.cpp:persistentLifecycle">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cue_test.cpp:ConvertCueInfoToCueRoundtrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cue_test.cpp:CueTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cue_test.cpp:DefaultCueInfoToCueRoundtrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cue_test.cpp:DefaultCueToCueInfoTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:CueControlTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:DontSeekOnLoadMainCue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:FollowCueOnQuantize">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:IntroCue_SetStartEnd_ClearStartEnd">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:LoadAutodetectedCues_QuantizeDisabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:LoadAutodetectedCues_QuantizeEnabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:LoadAutodetectedCues_QuantizeEnabledNoBeats">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:LoadTrackWithDetectedCues">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:LoadTrackWithIntroEndAndOutroStart">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:LoadUnloadTrack">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:OutroCue_SetStartEnd_ClearStartEnd">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:SeekOnLoadDefault">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:SeekOnLoadDefault_CueInPreroll">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/cuecontrol_test.cpp:SeekOnLoadMainCue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/dbconnectionpool_test.cpp:DbConnectionPoolTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/dbconnectionpool_test.cpp:MoveSemantics">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/dbidtest.cpp:DbIdTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/dbidtest.cpp:DefaultConstructor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/dbidtest.cpp:Invalid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/dbidtest.cpp:Valid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/directorydaotest.cpp:DirectoryDAOTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/directorydaotest.cpp:addDirTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/directorydaotest.cpp:getDirTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/directorydaotest.cpp:relocateDirectory">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/directorydaotest.cpp:removeDirTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Add">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:AssignAdd">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:AssignScalarMultiply">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:AssignSubtract">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:DurationTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Equals">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Format">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:GreaterThan">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:LessThan">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Micros">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Millis">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Nanos">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:ScalarMultiply">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Seconds">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/duration_test.cpp:Subtract">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/durationutiltest.cpp:DurationUtilTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/durationutiltest.cpp:FormatKiloSeconds">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/durationutiltest.cpp:FormatSecondsNegative">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/durationutiltest.cpp:formatSeconds">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/durationutiltest.cpp:formatSecondsLong">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/durationutiltest.cpp:formatTime">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectchainslottest.cpp:ChainSlotMirrorsLoadedChain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectchainslottest.cpp:ChainSlotMirrorsLoadedChain_Clear">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectchainslottest.cpp:ChainSlotMirrorsLoadedChain_StartsWithChainLoaded">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectchainslottest.cpp:EffectChainSlotTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectslottest.cpp:ControlsReflectSlotState">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectslottest.cpp:EffectSlotTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectsmanagertest.cpp:CanInstantiateEffectsFromBackend">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/effectsmanagertest.cpp:EffectsManagerTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebufferscalelineartest.cpp:EngineBufferScaleLinearTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebufferscalelineartest.cpp:ScaleConstant">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebufferscalelineartest.cpp:TestDoubleSpeedSmoothlyHalvesSamples">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebufferscalelineartest.cpp:TestHalfSpeedSmoothlyDoublesSamples">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebufferscalelineartest.cpp:TestRateLERPMonotonicallyProgresses">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebufferscalelineartest.cpp:TestRepeatedScaleCalls">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebufferscalelineartest.cpp:UnityRateIsSamplePerfect">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:BasicProcessingTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:CueGotoAndPlayDenon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:CueGotoAndPlayTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:CueGotoAndStopTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:CueStartPlayTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:DISABLED_KeylockReverseTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:DISABLED_RubberbandToggleTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:DISABLED_SoundTouchToggleTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:DisableKeylockResetsPitch">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:EngineBufferE2ETest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:EngineBufferTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:PitchRoundtrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:RatePermTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:RateTempTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:ReadFadeOut">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:ResetPitchAdjustUsesLinear">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:ReverseTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:RubberbandReverseTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:ScalerNoTransport">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:ScratchTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:ScratchTestStart">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:SeekTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:SlowRubberBand">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:SoundTouchCrashTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:SoundTouchReverseTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:TrackLoadResetsPitch">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginebuffertest.cpp:VinylScalerRampZero">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginefilterbiquadtest.cpp:EngineFilterBiquadTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginefilterbiquadtest.cpp:fidlibInputRespectsLocale">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginefilterbiquadtest.cpp:fidspecLengthIsLongEnough">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemastertest.cpp:EngineMasterTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemastertest.cpp:SingleChannelOutputWorks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemastertest.cpp:SingleChannelPFLOutputWorks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemastertest.cpp:ThreeChannelOutputWorks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemastertest.cpp:ThreeChannelPFLOutputWorks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemastertest.cpp:TwoChannelOutputWorks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemastertest.cpp:TwoChannelPFLOutputWorks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemicrophonetest.cpp:EngineMicrophoneTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemicrophonetest.cpp:TestInputMatchesOutput">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginemicrophonetest.cpp:TestRepeatedInputMatchesOutput">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ActivatingSyncDoesNotCauseDrifting">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:AnySyncDeckSliderStays">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:BeatMapQantizePlay">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:BpmAdjustFactor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ChangeBeatGrid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ControlObjectsExist">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:DisableInternalMasterWhilePlaying">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:DisableSyncOnMaster">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:EjectTrackSyncRemains">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:EnableOneDeckInitializesMaster">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:EnableOneDeckInitsMaster">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:EnableOneDeckSliderUpdates">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:EngineSyncTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ExplicitMasterPersists">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ExplicitMasterPostProcessed">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:FileBpmChangesDontAffectMaster">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:FollowerRateChange">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:HalfDoubleBpmTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:HalfDoubleConsistency">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:HalfDoubleInternalClockTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:HalfDoubleThenPlay">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:InternalClockFollowsFirstPlayingDeck">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:InternalMasterSetFollowerSliderMoves">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:InternalRateChangeTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:LoadTrackInitializesMaster">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:LoadTrackResetTempoOption">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:MasterBpmNeverZero">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:MasterStopSliderCheck">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:MomentarySyncDependsOnPlayingStates">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:QuantizeHotCueActivate">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:QuantizeImpliesSyncPhase">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:RateChangeTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:RateChangeTestOrder3">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:RateChangeTestWeirdOrder">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SeekStayInPhase">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SetEnabledBecomesMaster">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SetExplicitMasterByLights">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SetExplicitMasterByLightsNoTracks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SetFileBpmUpdatesLocalBpm">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SetMasterSuccess">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SetMasterWhilePlaying">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SyncPhaseToPlayingNonSyncDeck">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SyncToNonSyncDeck">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:SyncWithoutBeatgrid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:UserTweakBeatDistance">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:UserTweakPreservedInSeek">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ZeroBPMRateAdjustIgnored">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ZeroBpmNaturalRate">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ZeroLatencyRateChangeNoQuant">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ZeroLatencyRateChangeQuant">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/enginesynctest.cpp:ZeroLatencyRateDiffQuant">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/globaltrackcache_test.cpp:GlobalTrackCacheTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/globaltrackcache_test.cpp:concurrentDelete">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/globaltrackcache_test.cpp:evictWhileMoving">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/globaltrackcache_test.cpp:resolveByFileInfo">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:IndexRangeTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:clampIndex">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:containsIndex">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:empty">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:equal">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:intersect2">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:isSubrangeOf">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:length">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:orientation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:shrinkBack">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:shrinkFront">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:splitAndShrinkBack">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:splitAndShrinkFront">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/indexrange_test.cpp:startend">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:GetCompatibleKeys">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:KeyNameNotation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:KeyUtilsTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:LancelotNotation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:OpenKeyNotation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:ShortestStepsToKey">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:ShortestStepsToKey_EqualKeyZeroSteps">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/keyutilstest.cpp:ShortestStepsToKey_SameTonicZeroSteps">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/lcstest.cpp:BasicLCS">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/lcstest.cpp:LCS">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC14BitKnob_LSBFirst">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC14BitKnob_MSBFirst">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitKnob">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitKnob_CenterPointButton_NoteOn">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitKnob_ConfusableForCC7BitTicker">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitKnob_ConfusableForCC7BitTicker_ZeroIncluded">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitKnob_ConfusableForCC7BitTicker_Zeroes">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitKnob_ConfusableForSpread64Ticker_0x40Included">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitKnob_ConfusableForSpread64Ticker_StartAndStopOn41">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitTicker">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:CC7BitTicker_SingleDirection">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:LearningUtilsTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:MultipleChannelsUnrecognized_BindsFirst">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:MultipleControlsUnrecognized_BindsFirst">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:NoteOnButton">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:NoteOnNoteOffButton">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:SingleMessageSwitchMode_CC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:SingleMessageSwitchMode_NoteOn">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/learningutilstest.cpp:Spread64Ticker">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/libraryscannertest.cpp:LibraryScannerTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/libraryscannertest.cpp:ScannerRoundtrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopRoll_Activation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopRoll_Overlap">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopRoll_OverlapStackUnwind">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopRoll_StartPoint">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_IgnoresPastTrackEnd">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_IsSetByNumberedControl">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_ResizeKeepsStartPosition">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_SetAndToggle">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_SetDoesNotStartLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_SetWithoutTrackLoaded">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_SetsNumberedControls">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_ValueChangeDoesNotActivateLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_ValueChangeDoesNotResizeManualLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:BeatLoopSize_ValueChangeResizesBeatLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:Beatjump_JumpsByBeats">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:Beatjump_MovesActiveLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:Beatjump_MovesLoopBoundaries">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LegacyBeatLoopControl">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopDoubleButton_DoesNotResizeManualLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopDoubleButton_DoublesBeatloopSize">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopDoubleButton_IgnoresPastTrackEnd">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopDoubleButton_UpdatesNumberedBeatloopActivationControls">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopEscape">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopHalveButton_DoesNotResizeManualLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopHalveButton_HalvesBeatloopSize">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopHalveButton_IgnoresTooSmall">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopHalveButton_UpdatesNumberedBeatloopActivationControls">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopInButton_AdjustLoopInPointInsideLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopInButton_AdjustLoopInPointOutsideLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopInButton_QuantizeDisabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopInButton_QuantizeEnabledNoBeats">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopInOutButtons_QuantizeEnabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopInSetAfterLoopOutStops">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopInSetInsideLoopContinues">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopMoveTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopOutButton_AdjustLoopOutPointInsideLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopOutButton_AdjustLoopOutPointOutsideLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopOutButton_QuantizeDisabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopOutButton_QuantizeEnabledNoBeats">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopOutSetBeforeLoopInIgnored">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopOutSetInsideLoopContinues">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopResizeSeek">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopScale_DoublesLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopScale_HalvesLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopSet">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopSetOddSamples">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:LoopingControlTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:ReloopAndStopButton">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:ReloopToggleButton_DoesNotJumpAhead">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/looping_control_test.cpp:ReloopToggleButton_TogglesLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/mathutiltest.cpp:Denormal">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/mathutiltest.cpp:IsInf">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/mathutiltest.cpp:IsNaN">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/mathutiltest.cpp:MathClampUnsafe">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/mathutiltest.cpp:MathUtilTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metadatatest.cpp:CalendarYear">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metadatatest.cpp:ID3v2Year">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metadatatest.cpp:MetadataTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metadatatest.cpp:NormalizeBpm">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metadatatest.cpp:ParseBpmInvalid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metadatatest.cpp:ParseBpmPrecision">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metadatatest.cpp:ParseBpmValidRange">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:HalfLinkTakeover">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:LinkDefault">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:LinkLinked">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:LinkLinkedInverse">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:MetaLinkTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:MetaToParameter_Softtakeover_EffectDisabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:MetaToParameter_Softtakeover_EffectEnabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:SuperToMeta_Softtakeover_EffectDisabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/metaknob_link_test.cpp:SuperToMeta_Softtakeover_EffectEnabled">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:MidiControllerTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PotMeterCO_14BitCC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PotMeterCO_14BitPitchBend">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PotMeterCO_7BitCC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PushButtonCO_PushCC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PushButtonCO_PushOnOff">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PushButtonCO_PushOnOn">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PushButtonCO_ToggleOnOff_ButtonMidiOption">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_PushButtonCO_ToggleOnOff_SwitchMidiOption">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_ToggleCO_PushCC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_ToggleCO_PushOnOff">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_ToggleCO_PushOnOn">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_ToggleCO_ToggleOnOff_ButtonMidiOption">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/midicontrollertest.cpp:ReceiveMessage_ToggleCO_ToggleOnOff_SwitchMidiOption">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:MovingInterquartileMeanTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:doubles7">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:doubles9">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:integers1">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:integers2">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:integers9">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:zeros1">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/movinginterquartilemean_test.cpp:zeros2">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/performancetimer_test.cpp:DifferenceCanBeNegative">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/performancetimer_test.cpp:PerformanceTimerTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/playcountertest.cpp:DefaultCounstructor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/playcountertest.cpp:InitializingCounstructor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/playcountertest.cpp:PlayCounterTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/playlisttest.cpp:Normalize">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/playlisttest.cpp:PlaylistTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/playlisttest.cpp:Relative">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:OpenClose">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_Basic">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_NoInput">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_SysEx">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_SysExInterrupted_FollowedByNormalMessage">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_SysExInterrupted_FollowedBySysExMessage">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_SysExWithRealtime">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_SysExWithRealtime_CoincidentalRealtimeByte">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:Poll_Read_SysEx_BufferOverflow">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:PortMidiControllerTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:WriteShort">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:WriteSysex">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidicontroller_test.cpp:WriteSysex_Malformed">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidienumeratortest.cpp:InputOutputPortsLinked">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/portmidienumeratortest.cpp:PortMidiEnumeratorTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/queryutiltest.cpp:FieldEscaperEscapesQuotes">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/queryutiltest.cpp:QueryUtilTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/queryutiltest.cpp:SqlLikeWildcardEscaperEscapesForLike">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/readaheadmanager_test.cpp:FractionalFrameLoop">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/readaheadmanager_test.cpp:ReadAheadManagerTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:NormalizePeak">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:NormalizeRatio">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:PeakFromStringInvalid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:PeakFromStringValid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:RatioFromString0dB">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:RatioFromStringInvalid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:RatioFromStringValidRange">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:ReplayGainTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:hasPeak">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/replaygaintest.cpp:hasRatio">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rescalertest.cpp:RescalerUtilsTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rescalertest.cpp:Test">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:RgbColorTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:fromControlValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:fromInvalidQColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:fromQColorWithAlpha">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:fromQColorWithoutAlpha">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:toControlValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:toQColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:toQColorOptional">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:toQString">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:toQStringOptional">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:toQVariant">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/rgbcolor_test.cpp:toQVariantOptional">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/samplebuffertest.cpp:ReadAheadSampleBufferTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/samplebuffertest.cpp:clear">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/samplebuffertest.cpp:emptyWithCapacity">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/samplebuffertest.cpp:emptyWithoutCapacity">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/samplebuffertest.cpp:readWriteTrim">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/samplebuffertest.cpp:shrink">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:SampleUtilTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:add2WithGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:add3WithGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:addWithGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:allocIs16ByteAligned">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:applyAlternatingGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:applyGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:applyGain0ClearsBuffer">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:applyGain1DoesNothing">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:convertS16ToFloat32">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:copy2WithGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:copy3WithGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:copyReverse">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:copyWithGain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:copyWithGainAliased">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:deinterleaveBuffer">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:interleaveBuffer">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:reverse">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sampleutiltest.cpp:sumAbsPerChannel">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/schemamanager_test.cpp:BackwardsCompatibleVersion">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/schemamanager_test.cpp:BackwardsIncompatibleVersion">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/schemamanager_test.cpp:CanUpgradeFreshDatabaseToRequiredVersion">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/schemamanager_test.cpp:IgnoreDuplicateColumn">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/schemamanager_test.cpp:NonExistentSchema">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/schemamanager_test.cpp:SchemaManagerTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/schemamanager_test.cpp:UpgradeFailed">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:CrateFilter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:CrateFilterEmpty">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:CrateFilterQuote">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:CrateFilterWithCrateFilterAndNegation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:CrateFilterWithOther">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:EmptySearch">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:ExtraFilterAppended">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:HumanReadableDurationSearch">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:HumanReadableDurationSearchWithOperators">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:HumanReadableDurationSearchwithRangeFilter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:MultipleFilters">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:MultipleTermsMultipleColumns">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:MultipleTermsMultipleColumnsNegation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:MultipleTermsOneColumn">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:NumericFilter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:NumericFilterAllowsSpace">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:NumericFilterEmpty">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:NumericFilterNegation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:NumericFilterOperators">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:NumericRangeFilter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:OneTermMultipleColumns">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:OneTermMultipleColumnsNegation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:OneTermOneColumn">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:SearchQueryParserTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:ShortCrateFilter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterAllowsSpace">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterDecoration">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterEmpty">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterNegation">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterQuote">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterQuote_NoEndQuoteTakesWholeQuery">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterQuotes">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/searchqueryparsertest.cpp:TextFilterTrailingSpace">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratobeatgridtest.cpp:ParseBeatGridDataFLAC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratobeatgridtest.cpp:ParseBeatGridDataMP3">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratobeatgridtest.cpp:ParseBeatGridDataMP4">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratobeatgridtest.cpp:ParseEmptyDataFLAC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratobeatgridtest.cpp:ParseEmptyDataMP3">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratobeatgridtest.cpp:ParseEmptyDataMP4">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratobeatgridtest.cpp:SeratoBeatGridTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseAndDumpBase64EncodedXiph">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseBpmLockEntry">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseColorEntry">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseCueEntry">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseEmptyDataMP3">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseEmptyDataMP4">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseLoopEntry">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseMarkers2DataFLAC">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseMarkers2DataMP3">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseMarkers2DataMP4">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:ParseMarkers2DataOGG">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkers2test.cpp:SeratoMarkers2Test">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkerstest.cpp:ParseEmptyDataMP3">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkerstest.cpp:ParseEmptyDataMP4">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkerstest.cpp:ParseEntry">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkerstest.cpp:ParseMarkersDataMP3">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkerstest.cpp:ParseMarkersDataMP4">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratomarkerstest.cpp:SeratoMarkersTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratotagstest.cpp:CueColorConversionRoundtrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratotagstest.cpp:SeratoTagsTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratotagstest.cpp:SetBpmLocked">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratotagstest.cpp:SetCueInfos">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratotagstest.cpp:SetTrackColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratotagstest.cpp:TrackColorConversionRoundtrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/seratotagstest.cpp:TrackColorConversionRoundtripWithKnownStoredColor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:NoVariable">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:SkinContextTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:TestVariable">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:UpdateVariables">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:UpdateVariables_EmbeddedVariable">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:VariableByName">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:VariableWithExpression">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/skincontext_test.cpp:VariableWithFormat">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevFarLess_NewFarLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevFarLess_NewFarMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevFarMore_NewFarLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevFarMore_NewFarMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevNearLess_NewFarLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevNearLess_NewFarMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevNearMore_NewFarLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_PrevNearMore_NewFarMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DISABLED_SuperFastNotSame">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DoesntIgnoreDisabledControl">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DoesntIgnoreNonPotmeter">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:DoesntIgnoreSameValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:IgnoresFirstValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarLess_NewFarLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarLess_NewFarMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarLess_NewNearLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarLess_NewNearLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarLess_NewNearMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarLess_NewNearMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarMore_NewFarLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarMore_NewFarMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarMore_NewNearLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarMore_NewNearLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarMore_NewNearMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevFarMore_NewNearMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearLess_NewFarLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearLess_NewFarMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearLess_NewNearLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearLess_NewNearLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearLess_NewNearMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearLess_NewNearMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearMore_NewFarLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearMore_NewFarMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearMore_NewNearLess_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearMore_NewNearLess_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearMore_NewNearMore_Late">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:PrevNearMore_NewNearMore_Soon">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:SoftTakeoverTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/softtakeover_test.cpp:SuperFastPrevEqCurrent">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:SoundSourceProxyTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:TOAL_TPE2">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:open">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:openEmptyFile">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:readArtist">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:readBeyondEnd">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:regressionTestCachingReaderChunkJumpForward">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:seekBoundaries">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:seekForwardBackward">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundproxy_test.cpp:skipAndRead">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundsourceproviderregistrytest.cpp:SoundSourceProviderRegistryTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/soundsourceproviderregistrytest.cpp:registerProviders">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sqliteliketest.cpp:PatternTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/sqliteliketest.cpp:SqliteLikeTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/synccontroltest.cpp:SyncControlTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/synccontroltest.cpp:TestDetermineBpmMultiplier">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tableview_test.cpp:BadHeaderState">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tableview_test.cpp:GoodHeaderState">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tableview_test.cpp:HeaderViewStateTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tableview_test.cpp:RoundTrip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/taglibtest.cpp:TagLibTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/taglibtest.cpp:WriteID3v2Tag">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackdao_test.cpp:TrackDAOTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackdao_test.cpp:detectMovedTracks">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:Cancel">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:DedupeList">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:MungeFilename">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:OverwriteAll">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:OverwriteSkip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:SimpleListExport">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:SkipAll">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackexport_test.cpp:TrackExporterTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackmetadata_test.cpp:TrackMetadataTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackmetadata_test.cpp:mergeImportedMetadata">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackmetadata_test.cpp:parseArtistTitleFromFileName">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tracknumberstest.cpp:ParseFromStringEmpty">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tracknumberstest.cpp:ParseFromStringInvalid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tracknumberstest.cpp:ParseFromStringValid">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tracknumberstest.cpp:SplitAndJoinStrings">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tracknumberstest.cpp:ToString">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/tracknumberstest.cpp:TrackNumbersTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackreftest.cpp:CopyAndSetId">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackreftest.cpp:DefaultConstructor">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackreftest.cpp:FromFileInfoWithId">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackreftest.cpp:FromFileInfoWithoutId">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackreftest.cpp:TrackRefTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackupdate_test.cpp:TrackUpdateTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackupdate_test.cpp:parseModifiedCleanAgainSkipCover">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackupdate_test.cpp:parseModifiedCleanAgainUpdateCover">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackupdate_test.cpp:parseModifiedCleanOnce">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/trackupdate_test.cpp:parseModifiedDirtyAgain">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wbatterytest.cpp:WBatteryTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wbatterytest.cpp:formatTooltip">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wpushbutton_test.cpp:LongPressLatchTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wpushbutton_test.cpp:QuickPressNoLatchTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wpushbutton_test.cpp:WPushButtonTest">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:ChangeChildControls">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:ChangePageSelection">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:HiddenStackNoChanges">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:MaintainPageControlValue">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:MaintainPageSelected">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:NextPrevControls">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:OnHideBehavior">Checked</value>
+    <value type="Qt::CheckState" key="/home/justin/Development/open-source/mixxx/src/test/wwidgetstack_test.cpp:WWidgetStackTest">Checked</value>
+   </valuemap>
+   <value type="int" key="AutoTest.RunAfterBuild">0</value>
+   <value type="bool" key="AutoTest.UseGlobal">true</value>
+   <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey"/>
+   <value type="bool" key="ClangCodeModel.UseGlobalConfig">true</value>
+   <value type="QString" key="ClangCodeModel.WarningConfigId">Builtin.Questionable</value>
+   <valuemap type="QVariantMap" key="ClangTools">
+    <value type="bool" key="ClangTools.AnalyzeOpenFiles">true</value>
+    <value type="bool" key="ClangTools.BuildBeforeAnalysis">true</value>
+    <value type="QString" key="ClangTools.DiagnosticConfig">Builtin.DefaultTidyAndClazy</value>
+    <value type="int" key="ClangTools.ParallelJobs">2</value>
+    <valuelist type="QVariantList" key="ClangTools.SelectedDirs"/>
+    <valuelist type="QVariantList" key="ClangTools.SelectedFiles"/>
+    <valuelist type="QVariantList" key="ClangTools.SuppressedDiagnostics"/>
+    <value type="bool" key="ClangTools.UseGlobalSettings">true</value>
+   </valuemap>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="DeviceType">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{fb469343-c1b2-4c0f-be11-09ee9a8033a9}</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=Debug
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Desktop-Debug</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Debug</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=Release
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Desktop-Release</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=RelWithDebInfo
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Desktop-RelWithDebInfo</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Release with Debug Information</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.3">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=MinSizeRel
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Desktop-MinSizeRel</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Minimum Size Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.BuildConfigurationCount">4</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.DeployConfiguration.0">
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">0</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Deploy</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">1</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.DeployConfiguration.CustomData"/>
+    <value type="bool" key="ProjectExplorer.DeployConfiguration.CustomDataEnabled">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.DefaultDeployConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.0">
+    <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
+    <valuelist type="QVariantList" key="Analyzer.Perf.Events">
+     <value type="QString">cpu-cycles</value>
+    </valuelist>
+    <valuelist type="QVariantList" key="Analyzer.Perf.ExtraArguments"/>
+    <value type="int" key="Analyzer.Perf.Frequency">250</value>
+    <valuelist type="QVariantList" key="Analyzer.Perf.RecordArguments">
+     <value type="QString">-e</value>
+     <value type="QString">cpu-cycles</value>
+     <value type="QString">--call-graph</value>
+     <value type="QString">dwarf,4096</value>
+     <value type="QString">-F</value>
+     <value type="QString">250</value>
+    </valuelist>
+    <value type="QString" key="Analyzer.Perf.SampleMode">-F</value>
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="int" key="Analyzer.Perf.StackSize">4096</value>
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="QString" key="Analyzer.Valgrind.KCachegrindExecutable">kcachegrind</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">mixxx</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.mixxx</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">mixxx</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/QtCreator-lKQxIu/qtc-cmake-EmGkUuTc</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
+    <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
+    <valuelist type="QVariantList" key="Analyzer.Perf.Events">
+     <value type="QString">cpu-cycles</value>
+    </valuelist>
+    <valuelist type="QVariantList" key="Analyzer.Perf.ExtraArguments"/>
+    <value type="int" key="Analyzer.Perf.Frequency">250</value>
+    <valuelist type="QVariantList" key="Analyzer.Perf.RecordArguments">
+     <value type="QString">-e</value>
+     <value type="QString">cpu-cycles</value>
+     <value type="QString">--call-graph</value>
+     <value type="QString">dwarf,4096</value>
+     <value type="QString">-F</value>
+     <value type="QString">250</value>
+    </valuelist>
+    <value type="QString" key="Analyzer.Perf.SampleMode">-F</value>
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="int" key="Analyzer.Perf.StackSize">4096</value>
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="QString" key="Analyzer.Valgrind.KCachegrindExecutable">kcachegrind</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">mixxx-test</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.mixxx-test</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">mixxx-test</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/QtCreator-lKQxIu/qtc-cmake-EmGkUuTc</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">2</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.1</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="DeviceType">Desktop</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Qt 5.15.2 in PATH (System) - temporary</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Qt 5.15.2 in PATH (System) - temporary</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{9681ec74-025e-422a-b964-31dd6f5b5639}</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">-1</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=Debug
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Qt_5_15_2_in_PATH_System_temporary-Debug</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Debug</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=Release
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Qt_5_15_2_in_PATH_System_temporary-Release</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=RelWithDebInfo
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Qt_5_15_2_in_PATH_System_temporary-RelWithDebInfo</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Release with Debug Information</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.3">
+    <value type="QString" key="CMake.Initial.Parameters">-GUnix Makefiles
+-DCMAKE_BUILD_TYPE:String=MinSizeRel
+-DQT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}
+-DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
+-DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
+-DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/justin/Development/open-source/mixxx/../build-mixxx-Qt_5_15_2_in_PATH_System_temporary-MinSizeRel</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">all</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.MakeStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Minimum Size Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeBuildConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.BuildConfigurationCount">4</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.DeployConfiguration.0">
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">0</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Deploy</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">1</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.DeployConfiguration.CustomData"/>
+    <value type="bool" key="ProjectExplorer.DeployConfiguration.CustomDataEnabled">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.DefaultDeployConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
+   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.TargetCount</variable>
+  <value type="int">2</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Updater.FileVersion</variable>
+  <value type="int">22</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">22</value>
+ </data>
+</qtcreator>

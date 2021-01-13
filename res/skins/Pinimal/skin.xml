@@ -1,0 +1,47 @@
+<!DOCTYPE skin>
+<skin>
+  <manifest>
+    <title>PioPi</title>
+    <author>jusko</author>
+    <version>0.0</version>
+    <description>Minimal skin designed for using Pioneer DDJ controllers with the Raspberry Pi 7" touchscreen</description>
+    <language>en</language>
+    <license>Creative Commons Attribution, Share-Alike 3.0 Unported</license>
+    <attributes>
+      <attribute config_key="[Master],maximize_library">0</attribute>
+      <attribute config_key="[Master],num_decks">2</attribute>
+      <attribute config_key="[Master],num_preview_decks">0</attribute>
+      <attribute config_key="[Master],num_samplers">16</attribute>
+      <attribute config_key="[Microphone],show_microphone">0</attribute>
+      <attribute config_key="[Library],show_coverart">0</attribute>
+      <attribute config_key="[PreviewDeck],show_previewdeck">0</attribute>
+      <attribute config_key="[VinylControl],show_vinylcontrol">0</attribute>
+    </attributes>
+  </manifest>
+
+  <ObjectName>Mixxx</ObjectName>
+  <MaximumSize>800,480</MaximumSize>
+  <SizeHint>p,p</SizeHint>
+  <Style src="skin:style.qss"/>
+  <Layout>vertical</Layout>
+
+  <Children>
+    <SingletonDefinition>
+      <ObjectName>Foo</ObjectName>
+      <Children>
+        <Template src="skin:foo.xml"/>
+      </Children>
+    </SingletonDefinition>
+
+    <WidgetGroup>
+      <ObjectName>SkinContainer</ObjectName>
+      <SizePolicy>me,me</SizePolicy>
+      <Layout>vertical</Layout>
+      <Children>
+        <SingletonContainer>
+          <ObjectName>Foo</ObjectName>
+        </SingletonContainer>
+      </Children>
+    </WidgetGroup>
+  </Children>
+</skin>

@@ -1,0 +1,18 @@
+<!DOCTYPE template>
+<Template>
+  <WidgetGroup>
+    <ObjectName>ToolBar</ObjectName>
+    <Layout>horizontal</Layout>
+    <Size>me,20</Size>
+    <Children>
+      <Template src="skin:push_button.xml">
+        <SetVariable name="title">Library</SetVariable>
+        <SetVariable name="control">[Skin],show_library</SetVariable>
+      </Template>
+      <Template src="skin:push_button.xml">
+        <SetVariable name="title">Decks</SetVariable>
+        <SetVariable name="control">[Skin],show_decks</SetVariable>
+      </Template>
+    </Children>
+  </WidgetGroup>
+</Template>
